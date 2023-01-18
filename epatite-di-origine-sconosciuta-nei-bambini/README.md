@@ -1,4 +1,4 @@
-<a href="https://cdn.ecdc.europa.eu/novhep-surveillance/"><img src="https://github.com/fbranda/dati-epidemiologici/blob/main/assets/img/logo-epatiti.png" alt="Epatiti" data-canonical-src="https://github.com/fbranda/dati-epidemiologici/blob/main/assets/img/logo-epatiti.png" width="500"/></a>
+<a href="https://cdn.ecdc.europa.eu/novhep-surveillance/"><img src="https://github.com/fbranda/dati-epidemiologici/blob/main/assets/img/logo-epatiti.png" alt="Epatiti" data-canonical-src="https://github.com/fbranda/dati-epidemiologici/blob/main/assets/img/logo-epatiti.png" width="900"/></a>
 
 [Italiano](README.md) - [English](README_EN.md)<br><br>
 
