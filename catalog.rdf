@@ -11,37 +11,37 @@
       <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
       <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
       <dct:identifier>unical</dct:identifier>
-      <foaf_name>Università della Calabria</foaf_name>
+      <foaf:name>Università della Calabria</foaf:name>
     </dcatapit:Agent>
   </dct:publisher>
   <dct:description>Dati epidemiologici</dct:description>
   <dct:language>it</dct:language>
-  <foaf_homepage rdf:resource="https://github.com/fbranda/dati-epidemiologici/tree/main#"/>
-  <dcat_themeTaxonomy>
-    <skos_ConceptScheme rdf:about="http://publications.europa.eu/resource/authority/data-theme">
+  <foaf:homepage rdf:resource="https://github.com/fbranda/dati-epidemiologici/tree/main#"/>
+  <dcat:themeTaxonomy>
+    <skos:ConceptScheme rdf:about="http://publications.europa.eu/resource/authority/data-theme">
       <dct:title>Data Theme Vocabulary</dct:title>
-    </skos_ConceptScheme>
-  </dcat_themeTaxonomy>
+    </skos:ConceptScheme>
+  </dcat:themeTaxonomy>
   <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-01-18</dct:modified>
   <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-01-18</dct:issued>
   <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
-  <dcat_dataset rdf:resource="https://github.com/fbranda/dati-epidemiologici/tree/main/epatite-di-origine-sconosciuta-nei-bambini"/>
+  <dcat:dataset rdf:resource="https://github.com/fbranda/dati-epidemiologici/tree/main/epatite-di-origine-sconosciuta-nei-bambini"/>
   </dcatapit:Catalog>
   <dcatapit:Dataset rdf:about="https://github.com/fbranda/dati-epidemiologici/tree/main/epatite-di-origine-sconosciuta-nei-bambini">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
-    <dcat_theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/HEAL"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/HEAL"/>
     <dct:license/>
     <dct:title>Epatite di origine sconosciuta nei bambini</dct:title>
     <dct:landingpage>https://github.com/fbranda/dati-epidemiologici/tree/main/epatite-di-origine-sconosciuta-nei-bambini</dct:landingpage>
     <dct:description>A partire dal 5 aprile 2022 il Regno Unito (UK) ha cominciato a notificare all’Organizzazione Mondiale della Sanità (OMS) un incremento di casi di epatite acuta grave a eziologia sconosciuta in bambini di età inferiore ai 16 anni, precedentemente sani. Per informare i cittadini e mettere a disposizione i dati raccolti, utili ai soli fini comunicativi e di ricerca, questo dataset fornisce una risorsa con cui avere una panoramica dei casi di epatite di origine sconosciuta nei bambini di età pari o inferiore a 16 anni segnalati all'ECDC e all'Ufficio regionale dell'OMS per l'Europa attraverso il Sistema di sorveglianza europeo (TESSy). Gli obiettivi principali di questo database sono: (i) facilitare le indagini epidemiologiche sulle dinamiche di trasmissione della malattia; (ii) supportare le decisioni cliniche e di salute pubblica.</dct:description>
     <dct:identifier>unical:epatite-di-origine-sconosciuta-nei-bambini</dct:identifier>
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/WEEKLY"/>
-    <dcat_contactPoint rdf:resource="https://dimes.unical.it/"/>
+    <dcat:contactPoint rdf:resource="https://dimes.unical.it/"/>
     <dct:rightsHolder>
       <dcatapit:Agent rdf:about="unical">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
         <dct:identifier>unical</dct:identifier>
-        <foaf_name>Università della Calabria</foaf_name>
+        <foaf:name>Università della Calabria</foaf:name>
       </dcatapit:Agent>
     </dct:rightsHolder>
     <dct:publisher>
@@ -49,7 +49,7 @@
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
         <dct:identifier>unical</dct:identifier>
-        <foaf_name>Università della Calabria</foaf_name>
+        <foaf:name>Università della Calabria</foaf:name>
       </dcatapit:Agent>
     </dct:publisher>
     <dct:subject rdf:resource="http://eurovoc.europa.eu/100215"/>
@@ -57,32 +57,32 @@
     <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
     <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-12-24</dct:modified>
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-06-29</dct:issued>
-    <dcat_contactPoint rdf:resource="https://dimes.unical.it/"/>
-    <dcat_keyword>epatite</dcat_keyword>
-    <dcat_keyword>salute pubblica</dcat_keyword>
-    <dcat_keyword>sorveglianza epidemiologica</dcat_keyword>
-    <dcat_distribution rdf:resource="https://github.com/fbranda/dati-epidemiologici/tree/main/epatite-di-origine-sconosciuta-nei-bambini/csv2"/>
-    <dcat_distribution rdf:resource="https://github.com/fbranda/dati-epidemiologici/tree/main/epatite-di-origine-sconosciuta-nei-bambini/csv3"/>
-    <dcat_distribution rdf:resource="https://github.com/fbranda/dati-epidemiologici/tree/main/epatite-di-origine-sconosciuta-nei-bambini/csv4"/>
-    <dcat_distribution rdf:resource="https://github.com/fbranda/dati-epidemiologici/tree/main/epatite-di-origine-sconosciuta-nei-bambini/csv5"/>
-    <dcat_distribution rdf:resource="https://github.com/fbranda/dati-epidemiologici/tree/main/epatite-di-origine-sconosciuta-nei-bambini/csv6"/>
-    <dcat_distribution rdf:resource="https://github.com/fbranda/dati-epidemiologici/tree/main/epatite-di-origine-sconosciuta-nei-bambini/csv7"/>
-    <dcat_distribution rdf:resource="https://github.com/fbranda/dati-epidemiologici/tree/main/epatite-di-origine-sconosciuta-nei-bambini/csv8"/>
-    <dcat_distribution rdf:resource="https://github.com/fbranda/dati-epidemiologici/tree/main/epatite-di-origine-sconosciuta-nei-bambini/csv9"/>
-    <dcat_distribution rdf:resource="https://github.com/fbranda/dati-epidemiologici/tree/main/epatite-di-origine-sconosciuta-nei-bambini/csv10"/>
-    <dcat_distribution rdf:resource="https://github.com/fbranda/dati-epidemiologici/tree/main/epatite-di-origine-sconosciuta-nei-bambini/csv11"/>
-    <dcat_distribution rdf:resource="https://github.com/fbranda/dati-epidemiologici/tree/main/epatite-di-origine-sconosciuta-nei-bambini/csv12"/>
-    <dcat_distribution rdf:resource="https://github.com/fbranda/dati-epidemiologici/tree/main/epatite-di-origine-sconosciuta-nei-bambini/csv13"/>
-    <dcat_distribution rdf:resource="https://github.com/fbranda/dati-epidemiologici/tree/main/epatite-di-origine-sconosciuta-nei-bambini/csv14"/>
-    <dcat_distribution rdf:resource="https://github.com/fbranda/dati-epidemiologici/tree/main/epatite-di-origine-sconosciuta-nei-bambini/csv15"/>
+    <dcat:contactPoint rdf:resource="https://dimes.unical.it/"/>
+    <dcat:keyword>epatite</dcat:keyword>
+    <dcat:keyword>salute pubblica</dcat:keyword>
+    <dcat:keyword>sorveglianza epidemiologica</dcat:keyword>
+    <dcat:distribution rdf:resource="https://github.com/fbranda/dati-epidemiologici/tree/main/epatite-di-origine-sconosciuta-nei-bambini/csv2"/>
+    <dcat:distribution rdf:resource="https://github.com/fbranda/dati-epidemiologici/tree/main/epatite-di-origine-sconosciuta-nei-bambini/csv3"/>
+    <dcat:distribution rdf:resource="https://github.com/fbranda/dati-epidemiologici/tree/main/epatite-di-origine-sconosciuta-nei-bambini/csv4"/>
+    <dcat:distribution rdf:resource="https://github.com/fbranda/dati-epidemiologici/tree/main/epatite-di-origine-sconosciuta-nei-bambini/csv5"/>
+    <dcat:distribution rdf:resource="https://github.com/fbranda/dati-epidemiologici/tree/main/epatite-di-origine-sconosciuta-nei-bambini/csv6"/>
+    <dcat:distribution rdf:resource="https://github.com/fbranda/dati-epidemiologici/tree/main/epatite-di-origine-sconosciuta-nei-bambini/csv7"/>
+    <dcat:distribution rdf:resource="https://github.com/fbranda/dati-epidemiologici/tree/main/epatite-di-origine-sconosciuta-nei-bambini/csv8"/>
+    <dcat:distribution rdf:resource="https://github.com/fbranda/dati-epidemiologici/tree/main/epatite-di-origine-sconosciuta-nei-bambini/csv9"/>
+    <dcat:distribution rdf:resource="https://github.com/fbranda/dati-epidemiologici/tree/main/epatite-di-origine-sconosciuta-nei-bambini/csv10"/>
+    <dcat:distribution rdf:resource="https://github.com/fbranda/dati-epidemiologici/tree/main/epatite-di-origine-sconosciuta-nei-bambini/csv11"/>
+    <dcat:distribution rdf:resource="https://github.com/fbranda/dati-epidemiologici/tree/main/epatite-di-origine-sconosciuta-nei-bambini/csv12"/>
+    <dcat:distribution rdf:resource="https://github.com/fbranda/dati-epidemiologici/tree/main/epatite-di-origine-sconosciuta-nei-bambini/csv13"/>
+    <dcat:distribution rdf:resource="https://github.com/fbranda/dati-epidemiologici/tree/main/epatite-di-origine-sconosciuta-nei-bambini/csv14"/>
+    <dcat:distribution rdf:resource="https://github.com/fbranda/dati-epidemiologici/tree/main/epatite-di-origine-sconosciuta-nei-bambini/csv15"/>
   </dcatapit:Dataset>
   <dcatapit:Distribution rdf:about="https://github.com/fbranda/dati-epidemiologici/tree/main/epatite-di-origine-sconosciuta-nei-bambini/csv2">
-    <dcat_accessURL rdf:resource="https://raw.githubusercontent.com/fbranda/dati-epidemiologici/main/epatite-di-origine-sconosciuta-nei-bambini/ECDC-WHO-Regional-Office-for-Europe/age-cases-latest.csv"/>
+    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/fbranda/dati-epidemiologici/main/epatite-di-origine-sconosciuta-nei-bambini/ECDC-WHO-Regional-Office-for-Europe/age-cases-latest.csv"/>
     <dct:license>
       <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40">
         <rdf:type rdf:resource="dct:LicenseDocument"/>
         <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
-        <foaf_name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf_name>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
       </dcatapit:LicenseDocument>
     </dct:license>
     <dct:format rdf:resource="CSV"/>
@@ -91,12 +91,12 @@
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </dcatapit:Distribution>
   <dcatapit:Distribution rdf:about="https://github.com/fbranda/dati-epidemiologici/tree/main/epatite-di-origine-sconosciuta-nei-bambini/csv3">
-    <dcat_accessURL rdf:resource="https://raw.githubusercontent.com/fbranda/dati-epidemiologici/main/epatite-di-origine-sconosciuta-nei-bambini/ECDC-WHO-Regional-Office-for-Europe/age-country-cases-latest.csv"/>
+    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/fbranda/dati-epidemiologici/main/epatite-di-origine-sconosciuta-nei-bambini/ECDC-WHO-Regional-Office-for-Europe/age-country-cases-latest.csv"/>
     <dct:license>
       <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40">
         <rdf:type rdf:resource="dct:LicenseDocument"/>
         <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
-        <foaf_name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf_name>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
       </dcatapit:LicenseDocument>
     </dct:license>
     <dct:format rdf:resource="CSV"/>
@@ -105,12 +105,12 @@
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </dcatapit:Distribution>
   <dcatapit:Distribution rdf:about="https://github.com/fbranda/dati-epidemiologici/tree/main/epatite-di-origine-sconosciuta-nei-bambini/csv4">
-    <dcat_accessURL rdf:resource="https://raw.githubusercontent.com/fbranda/dati-epidemiologici/main/epatite-di-origine-sconosciuta-nei-bambini/ECDC-WHO-Regional-Office-for-Europe/cases-latest.csv"/>
+    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/fbranda/dati-epidemiologici/main/epatite-di-origine-sconosciuta-nei-bambini/ECDC-WHO-Regional-Office-for-Europe/cases-latest.csv"/>
     <dct:license>
       <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40">
         <rdf:type rdf:resource="dct:LicenseDocument"/>
         <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
-        <foaf_name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf_name>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
       </dcatapit:LicenseDocument>
     </dct:license>
     <dct:format rdf:resource="CSV"/>
@@ -119,12 +119,12 @@
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </dcatapit:Distribution>
   <dcatapit:Distribution rdf:about="https://github.com/fbranda/dati-epidemiologici/tree/main/epatite-di-origine-sconosciuta-nei-bambini/csv5">
-    <dcat_accessURL rdf:resource="https://raw.githubusercontent.com/fbranda/dati-epidemiologici/main/epatite-di-origine-sconosciuta-nei-bambini/ECDC-WHO-Regional-Office-for-Europe/country-cases-latest.csv"/>
+    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/fbranda/dati-epidemiologici/main/epatite-di-origine-sconosciuta-nei-bambini/ECDC-WHO-Regional-Office-for-Europe/country-cases-latest.csv"/>
     <dct:license>
       <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40">
         <rdf:type rdf:resource="dct:LicenseDocument"/>
         <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
-        <foaf_name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf_name>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
       </dcatapit:LicenseDocument>
     </dct:license>
     <dct:format rdf:resource="CSV"/>
@@ -133,12 +133,12 @@
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </dcatapit:Distribution>
   <dcatapit:Distribution rdf:about="https://github.com/fbranda/dati-epidemiologici/tree/main/epatite-di-origine-sconosciuta-nei-bambini/csv6">
-    <dcat_accessURL rdf:resource="https://raw.githubusercontent.com/fbranda/dati-epidemiologici/main/epatite-di-origine-sconosciuta-nei-bambini/ECDC-WHO-Regional-Office-for-Europe/country-typology-case-latest.csv"/>
+    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/fbranda/dati-epidemiologici/main/epatite-di-origine-sconosciuta-nei-bambini/ECDC-WHO-Regional-Office-for-Europe/country-typology-case-latest.csv"/>
     <dct:license>
       <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40">
         <rdf:type rdf:resource="dct:LicenseDocument"/>
         <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
-        <foaf_name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf_name>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
       </dcatapit:LicenseDocument>
     </dct:license>
     <dct:format rdf:resource="CSV"/>
@@ -147,12 +147,12 @@
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </dcatapit:Distribution>
   <dcatapit:Distribution rdf:about="https://github.com/fbranda/dati-epidemiologici/tree/main/epatite-di-origine-sconosciuta-nei-bambini/csv7">
-    <dcat_accessURL rdf:resource="https://raw.githubusercontent.com/fbranda/dati-epidemiologici/main/epatite-di-origine-sconosciuta-nei-bambini/ECDC-WHO-Regional-Office-for-Europe/microbiological-analysis-latest.csv"/>
+    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/fbranda/dati-epidemiologici/main/epatite-di-origine-sconosciuta-nei-bambini/ECDC-WHO-Regional-Office-for-Europe/microbiological-analysis-latest.csv"/>
     <dct:license>
       <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40">
         <rdf:type rdf:resource="dct:LicenseDocument"/>
         <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
-        <foaf_name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf_name>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
       </dcatapit:LicenseDocument>
     </dct:license>
     <dct:format rdf:resource="CSV"/>
@@ -161,12 +161,12 @@
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </dcatapit:Distribution>
   <dcatapit:Distribution rdf:about="https://github.com/fbranda/dati-epidemiologici/tree/main/epatite-di-origine-sconosciuta-nei-bambini/csv8">
-    <dcat_accessURL rdf:resource="https://raw.githubusercontent.com/fbranda/dati-epidemiologici/main/epatite-di-origine-sconosciuta-nei-bambini/ECDC-WHO-Regional-Office-for-Europe/sex-cases-latest.csv"/>
+    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/fbranda/dati-epidemiologici/main/epatite-di-origine-sconosciuta-nei-bambini/ECDC-WHO-Regional-Office-for-Europe/sex-cases-latest.csv"/>
     <dct:license>
       <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40">
         <rdf:type rdf:resource="dct:LicenseDocument"/>
         <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
-        <foaf_name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf_name>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
       </dcatapit:LicenseDocument>
     </dct:license>
     <dct:format rdf:resource="CSV"/>
@@ -175,12 +175,12 @@
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </dcatapit:Distribution>
   <dcatapit:Distribution rdf:about="https://github.com/fbranda/dati-epidemiologici/tree/main/epatite-di-origine-sconosciuta-nei-bambini/csv9">
-    <dcat_accessURL rdf:resource="https://raw.githubusercontent.com/fbranda/dati-epidemiologici/main/epatite-di-origine-sconosciuta-nei-bambini/ECDC-WHO-Regional-Office-for-Europe/timeseries-age-cases.csv"/>
+    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/fbranda/dati-epidemiologici/main/epatite-di-origine-sconosciuta-nei-bambini/ECDC-WHO-Regional-Office-for-Europe/timeseries-age-cases.csv"/>
     <dct:license>
       <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40">
         <rdf:type rdf:resource="dct:LicenseDocument"/>
         <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
-        <foaf_name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf_name>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
       </dcatapit:LicenseDocument>
     </dct:license>
     <dct:format rdf:resource="CSV"/>
@@ -189,12 +189,12 @@
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </dcatapit:Distribution>
   <dcatapit:Distribution rdf:about="https://github.com/fbranda/dati-epidemiologici/tree/main/epatite-di-origine-sconosciuta-nei-bambini/csv10">
-    <dcat_accessURL rdf:resource="https://raw.githubusercontent.com/fbranda/dati-epidemiologici/main/epatite-di-origine-sconosciuta-nei-bambini/ECDC-WHO-Regional-Office-for-Europe/timeseries-age-country-cases.csv"/>
+    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/fbranda/dati-epidemiologici/main/epatite-di-origine-sconosciuta-nei-bambini/ECDC-WHO-Regional-Office-for-Europe/timeseries-age-country-cases.csv"/>
     <dct:license>
       <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40">
         <rdf:type rdf:resource="dct:LicenseDocument"/>
         <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
-        <foaf_name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf_name>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
       </dcatapit:LicenseDocument>
     </dct:license>
     <dct:format rdf:resource="CSV"/>
@@ -203,12 +203,12 @@
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </dcatapit:Distribution>
   <dcatapit:Distribution rdf:about="https://github.com/fbranda/dati-epidemiologici/tree/main/epatite-di-origine-sconosciuta-nei-bambini/csv11">
-    <dcat_accessURL rdf:resource="https://raw.githubusercontent.com/fbranda/dati-epidemiologici/main/epatite-di-origine-sconosciuta-nei-bambini/ECDC-WHO-Regional-Office-for-Europe/timeseries-cases.csv"/>
+    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/fbranda/dati-epidemiologici/main/epatite-di-origine-sconosciuta-nei-bambini/ECDC-WHO-Regional-Office-for-Europe/timeseries-cases.csv"/>
     <dct:license>
       <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40">
         <rdf:type rdf:resource="dct:LicenseDocument"/>
         <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
-        <foaf_name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf_name>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
       </dcatapit:LicenseDocument>
     </dct:license>
     <dct:format rdf:resource="CSV"/>
@@ -217,12 +217,12 @@
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </dcatapit:Distribution>
   <dcatapit:Distribution rdf:about="https://github.com/fbranda/dati-epidemiologici/tree/main/epatite-di-origine-sconosciuta-nei-bambini/csv12">
-    <dcat_accessURL rdf:resource="https://raw.githubusercontent.com/fbranda/dati-epidemiologici/main/epatite-di-origine-sconosciuta-nei-bambini/ECDC-WHO-Regional-Office-for-Europe/timeseries-country-cases.csv"/>
+    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/fbranda/dati-epidemiologici/main/epatite-di-origine-sconosciuta-nei-bambini/ECDC-WHO-Regional-Office-for-Europe/timeseries-country-cases.csv"/>
     <dct:license>
       <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40">
         <rdf:type rdf:resource="dct:LicenseDocument"/>
         <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
-        <foaf_name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf_name>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
       </dcatapit:LicenseDocument>
     </dct:license>
     <dct:format rdf:resource="CSV"/>
@@ -231,12 +231,12 @@
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </dcatapit:Distribution>
   <dcatapit:Distribution rdf:about="https://github.com/fbranda/dati-epidemiologici/tree/main/epatite-di-origine-sconosciuta-nei-bambini/csv13">
-    <dcat_accessURL rdf:resource="https://raw.githubusercontent.com/fbranda/dati-epidemiologici/main/epatite-di-origine-sconosciuta-nei-bambini/ECDC-WHO-Regional-Office-for-Europe/timeseries-country-typology-cases.csv"/>
+    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/fbranda/dati-epidemiologici/main/epatite-di-origine-sconosciuta-nei-bambini/ECDC-WHO-Regional-Office-for-Europe/timeseries-country-typology-cases.csv"/>
     <dct:license>
       <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40">
         <rdf:type rdf:resource="dct:LicenseDocument"/>
         <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
-        <foaf_name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf_name>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
       </dcatapit:LicenseDocument>
     </dct:license>
     <dct:format rdf:resource="CSV"/>
@@ -245,12 +245,12 @@
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </dcatapit:Distribution>
   <dcatapit:Distribution rdf:about="https://github.com/fbranda/dati-epidemiologici/tree/main/epatite-di-origine-sconosciuta-nei-bambini/csv14">
-    <dcat_accessURL rdf:resource="https://raw.githubusercontent.com/fbranda/dati-epidemiologici/main/epatite-di-origine-sconosciuta-nei-bambini/ECDC-WHO-Regional-Office-for-Europe/timeseries-microbiological-analysis.csv"/>
+    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/fbranda/dati-epidemiologici/main/epatite-di-origine-sconosciuta-nei-bambini/ECDC-WHO-Regional-Office-for-Europe/timeseries-microbiological-analysis.csv"/>
     <dct:license>
       <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40">
         <rdf:type rdf:resource="dct:LicenseDocument"/>
         <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
-        <foaf_name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf_name>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
       </dcatapit:LicenseDocument>
     </dct:license>
     <dct:format rdf:resource="CSV"/>
@@ -259,12 +259,12 @@
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </dcatapit:Distribution>
   <dcatapit:Distribution rdf:about="https://github.com/fbranda/dati-epidemiologici/tree/main/epatite-di-origine-sconosciuta-nei-bambini/csv15">
-    <dcat_accessURL rdf:resource="https://raw.githubusercontent.com/fbranda/dati-epidemiologici/main/epatite-di-origine-sconosciuta-nei-bambini/ECDC-WHO-Regional-Office-for-Europe/timeseries-sex-cases.csv"/>
+    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/fbranda/dati-epidemiologici/main/epatite-di-origine-sconosciuta-nei-bambini/ECDC-WHO-Regional-Office-for-Europe/timeseries-sex-cases.csv"/>
     <dct:license>
       <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40">
         <rdf:type rdf:resource="dct:LicenseDocument"/>
         <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
-        <foaf_name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf_name>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
       </dcatapit:LicenseDocument>
     </dct:license>
     <dct:format rdf:resource="CSV"/>
@@ -272,21 +272,21 @@
     <dct:title>timeseries sex cases</dct:title>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </dcatapit:Distribution>
-  <skos_Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/HEAL">
-    <skos_prefLabel>Salute</skos_prefLabel>
-  </skos_Concept>
-  <skos_Concept rdf:about="http://eurovoc.europa.eu/100215">
-    <skos_prefLabel xml_lang="it">2841 salute</skos_prefLabel>
-  </skos_Concept>
+  <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/HEAL">
+    <skos:prefLabel>Salute</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://eurovoc.europa.eu/100215">
+    <skos:prefLabel xml:lang="it">2841 salute</skos:prefLabel>
+  </skos:Concept>
 <dcatapit:Organization rdf:about="https://dimes.unical.it/">
-  <rdf:type rdf:resource="vcard_Organization"/>
+  <rdf:type rdf:resource="vcard:Organization"/>
   <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
   <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
   <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Organization"/>
-  <rdf:type rdf:resource="vcard_Kind"/>
-  <vcard_fn>Dipartimento di Ingegneria Informatica, Modellistica, Elettronica e Sistemistica</vcard_fn>
-  <vcard_hasEmail rdf:resource="francesco.branda@unical.it"/>
-  <vcard_hasTelephone>+390984494971</vcard_hasTelephone>
-  <vcard_hasURL rdf:resource="https://dimes.unical.it/"/>
+  <rdf:type rdf:resource="vcard:Kind"/>
+  <vcard:fn>Dipartimento di Ingegneria Informatica, Modellistica, Elettronica e Sistemistica</vcard:fn>
+  <vcard:hasEmail rdf:resource="francesco.branda@unical.it"/>
+  <vcard:hasTelephone>+390984494971</vcard:hasTelephone>
+  <vcard:hasURL rdf:resource="https://dimes.unical.it/"/>
 </dcatapit:Organization>
 </rdf:RDF>
