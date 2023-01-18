@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+  <rdf:RDF xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:locn="http://www.w3.org/ns/locn#" xmlns:hydra="http://www.w3.org/ns/hydra/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dct="http://purl.org/dc/terms/" xmlns:dcatapit="http://dati.gov.it/onto/dcatapit#" xmlns:vcard="http://www.w3.org/2006/vcard/ns#" xmlns:adms="http://www.w3.org/ns/adms#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+
+
+<dcatapit:Catalog rdf:about="https://github.com/fbranda/dati-epidemiologici">
+  <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Catalog"/>
+  <dct:title>Università della Calabria</dct:title>
+  <dct:publisher>
+    <dcatapit:Agent rdf:about="unical">
+      <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+      <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+      <dct:identifier>unical</dct:identifier>
+      <foaf:name>Università della Calabria</foaf:name>
+    </dcatapit:Agent>
+  </dct:publisher>
+  <dct:description>Dati epidemiologici</dct:description>
+  <dct:language>it</dct:language>
+  <foaf:homepage rdf:resource="https://github.com/fbranda/dati-epidemiologici#"/>
+  <dcat:themeTaxonomy>
+    <skos:ConceptScheme rdf:about="http://publications.europa.eu/resource/authority/data-theme">
+      <dct:title>Data Theme Vocabulary</dct:title>
+    </skos:ConceptScheme>
+  </dcat:themeTaxonomy>
+  <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-01-18</dct:modified>
+  <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-01-20</dct:issued>
+  <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+  <dcat:dataset rdf:resource="https://github.com/fbranda/dati-epidemiologici/hepatitis"/>
+  </dcatapit:Catalog>
+  <dcatapit:Dataset rdf:about="https://github.com/fbranda/dati-epidemiologici/hepatitis">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/HEAL"/>
+    <dct:license/>
+    <dct:title>hepatitis</dct:title>
+    <dct:landingpage>https://github.com/fbranda/dati-epidemiologici/hepatitis</dct:landingpage>
+    <dct:description>A partire dal 5 aprile 2022 il Regno Unito (UK) ha cominciato a notificare all’Organizzazione Mondiale della Sanità (OMS) un incremento di casi di epatite acuta grave a eziologia sconosciuta in bambini di età inferiore ai 16 anni, precedentemente sani. Per informare i cittadini e mettere a disposizione i dati raccolti, utili ai soli fini comunicativi e di ricerca, questo dataset fornisce una risorsa con cui avere una panoramica dei casi di epatite di origine sconosciuta nei bambini di età pari o inferiore a 16 anni segnalati all'ECDC e all'Ufficio regionale dell'OMS per l'Europa attraverso il Sistema di sorveglianza europeo (TESSy). Gli obiettivi principali di questo database sono: (i) facilitare le indagini epidemiologiche sulle dinamiche di trasmissione della malattia; (ii) supportare le decisioni cliniche e di salute pubblica. Questi dati possono consentire, ad esempio, la formulazione di modelli matematici per l'analisi predittiva dell'evoluzione dell'infezione e l'identificazione delle aree in cui è più probabile che la malattia si diffonda.</dct:description>
+    <dct:identifier>unical:hepatitis</dct:identifier>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/MONTHLY"/>
+    <dcat:contactPoint rdf:resource="https://dimes.unical.it/"/>
+    <dct:rightsHolder>
+      <dcatapit:Agent rdf:about="unical">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>unical</dct:identifier>
+        <foaf:name>Università della Calabria</foaf:name>
+      </dcatapit:Agent>
+    </dct:rightsHolder>
+    <dct:publisher>
+      <dcatapit:Agent rdf:about="unical">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>unical</dct:identifier>
+        <foaf:name>Università della Calabria</foaf:name>
+      </dcatapit:Agent>
+    </dct:publisher>
+    <dct:subject rdf:resource="http://eurovoc.europa.eu/100215"/>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-12-24</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-06-29</dct:issued>
+    <dcat:contactPoint rdf:resource="https://dimes.unical.it/"/>
+    <dcat:keyword>epatite</dcat:keyword>
+    <dcat:keyword>salute pubblica</dcat:keyword>
+    <dcat:keyword>sorveglianza epidemiologica</dcat:keyword>
+    <dcat:distribution rdf:resource="https://github.com/fbranda/dati-epidemiologici/hepatitis/csv2"/>
+    <dcat:distribution rdf:resource="https://github.com/fbranda/dati-epidemiologici/hepatitis/csv3"/>
+    <dcat:distribution rdf:resource="https://github.com/fbranda/dati-epidemiologici/hepatitis/csv4"/>
+    <dcat:distribution rdf:resource="https://github.com/fbranda/dati-epidemiologici/hepatitis/csv5"/>
+    <dcat:distribution rdf:resource="https://github.com/fbranda/dati-epidemiologici/hepatitis/csv6"/>
+    <dcat:distribution rdf:resource="https://github.com/fbranda/dati-epidemiologici/hepatitis/csv7"/>
+    <dcat:distribution rdf:resource="https://github.com/fbranda/dati-epidemiologici/hepatitis/csv8"/>
+    <dcat:distribution rdf:resource="https://github.com/fbranda/dati-epidemiologici/hepatitis/csv9"/>
+    <dcat:distribution rdf:resource="https://github.com/fbranda/dati-epidemiologici/hepatitis/csv10"/>
+    <dcat:distribution rdf:resource="https://github.com/fbranda/dati-epidemiologici/hepatitis/csv11"/>
+    <dcat:distribution rdf:resource="https://github.com/fbranda/dati-epidemiologici/hepatitis/csv12"/>
+    <dcat:distribution rdf:resource="https://github.com/fbranda/dati-epidemiologici/hepatitis/csv13"/>
+    <dcat:distribution rdf:resource="https://github.com/fbranda/dati-epidemiologici/hepatitis/csv14"/>
+    <dcat:distribution rdf:resource="https://github.com/fbranda/dati-epidemiologici/hepatitis/csv15"/>
+  </dcatapit:Dataset>
+  <dcatapit:Distribution rdf:about="https://github.com/fbranda/dati-epidemiologici/hepatitis/csv2">
+    <dcat:accessURL rdf:resource="https://github.com/fbranda/dati-epidemiologici/blob/main/hepatitis/ECDC-WHO:Regional:Office:for_Europe/age:cases:latest.csv"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="CSV"/>
+    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+    <dct:title>age:cases:latest.csv</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </dcatapit:Distribution>
+  <dcatapit:Distribution rdf:about="https://github.com/fbranda/dati-epidemiologici/hepatitis/csv3">
+    <dcat:accessURL rdf:resource="https://github.com/fbranda/dati-epidemiologici/blob/main/hepatitis/ECDC-WHO:Regional:Office:for_Europe/age:country:cases:latest.csv"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="CSV"/>
+    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+    <dct:title>age:country:cases:latest.csv</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </dcatapit:Distribution>
+  <dcatapit:Distribution rdf:about="https://github.com/fbranda/dati-epidemiologici/hepatitis/csv4">
+    <dcat:accessURL rdf:resource="https://github.com/fbranda/dati-epidemiologici/blob/main/hepatitis/ECDC-WHO:Regional:Office:for_Europe/cases:latest.csv"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="CSV"/>
+    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+    <dct:title>cases:latest.csv</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </dcatapit:Distribution>
+  <dcatapit:Distribution rdf:about="https://github.com/fbranda/dati-epidemiologici/hepatitis/csv5">
+    <dcat:accessURL rdf:resource="https://github.com/fbranda/dati-epidemiologici/blob/main/hepatitis/ECDC-WHO:Regional:Office:for_Europe/country:cases:latest.csv"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="CSV"/>
+    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+    <dct:title>country:cases:latest.csv</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </dcatapit:Distribution>
+  <dcatapit:Distribution rdf:about="https://github.com/fbranda/dati-epidemiologici/hepatitis/csv6">
+    <dcat:accessURL rdf:resource="https://github.com/fbranda/dati-epidemiologici/blob/main/hepatitis/ECDC-WHO:Regional:Office:for_Europe/country:typology:cases:latest.csv"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="CSV"/>
+    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+    <dct:title>country:typology:cases:latest.csv</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </dcatapit:Distribution>
+  <dcatapit:Distribution rdf:about="https://github.com/fbranda/dati-epidemiologici/hepatitis/csv7">
+    <dcat:accessURL rdf:resource="https://github.com/fbranda/dati-epidemiologici/blob/main/hepatitis/ECDC-WHO:Regional:Office:for_Europe/microbiological:analysis:latest.csv"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="CSV"/>
+    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+    <dct:title>microbiological:analysis:latest.csv</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </dcatapit:Distribution>
+  <dcatapit:Distribution rdf:about="https://github.com/fbranda/dati-epidemiologici/hepatitis/csv8">
+    <dcat:accessURL rdf:resource="https://github.com/fbranda/dati-epidemiologici/blob/main/hepatitis/ECDC-WHO:Regional:Office:for_Europe/sex:cases:latest.csv"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="CSV"/>
+    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+    <dct:title>sex:cases:latest.csv</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </dcatapit:Distribution>
+  <dcatapit:Distribution rdf:about="https://github.com/fbranda/dati-epidemiologici/hepatitis/csv9">
+    <dcat:accessURL rdf:resource="https://github.com/fbranda/dati-epidemiologici/blob/main/hepatitis/ECDC-WHO:Regional:Office:for_Europe/timeseries:age:cases.csv"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="CSV"/>
+    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+    <dct:title>timeseries:age:cases.csv</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </dcatapit:Distribution>
+  <dcatapit:Distribution rdf:about="https://github.com/fbranda/dati-epidemiologici/hepatitis/csv10">
+    <dcat:accessURL rdf:resource="https://github.com/fbranda/dati-epidemiologici/blob/main/hepatitis/ECDC-WHO:Regional:Office:for_Europe/timeseries:age:country:cases.csv"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="CSV"/>
+    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+    <dct:title>timeseries:age:country:cases.csv</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </dcatapit:Distribution>
+  <dcatapit:Distribution rdf:about="https://github.com/fbranda/dati-epidemiologici/hepatitis/csv11">
+    <dcat:accessURL rdf:resource="https://github.com/fbranda/dati-epidemiologici/blob/main/hepatitis/ECDC-WHO:Regional:Office:for_Europe/timeseries:cases.csv"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="CSV"/>
+    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+    <dct:title>timeseries:cases.csv</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </dcatapit:Distribution>
+  <dcatapit:Distribution rdf:about="https://github.com/fbranda/dati-epidemiologici/hepatitis/csv12">
+    <dcat:accessURL rdf:resource="https://github.com/fbranda/dati-epidemiologici/blob/main/hepatitis/ECDC-WHO:Regional:Office:for_Europe/timeseries:country:cases.csv"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="CSV"/>
+    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+    <dct:title>timeseries:country:cases.csv</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </dcatapit:Distribution>
+  <dcatapit:Distribution rdf:about="https://github.com/fbranda/dati-epidemiologici/hepatitis/csv13">
+    <dcat:accessURL rdf:resource="https://github.com/fbranda/dati-epidemiologici/blob/main/hepatitis/ECDC-WHO:Regional:Office:for_Europe/timeseries:country:typology:cases.csv"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="CSV"/>
+    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+    <dct:title>timeseries:country:typology:cases.csv</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </dcatapit:Distribution>
+  <dcatapit:Distribution rdf:about="https://github.com/fbranda/dati-epidemiologici/hepatitis/csv14">
+    <dcat:accessURL rdf:resource="https://github.com/fbranda/dati-epidemiologici/blob/main/hepatitis/ECDC-WHO:Regional:Office:for_Europe/timeseries:microbiological:analysis.csv"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="CSV"/>
+    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+    <dct:title>timeseries:microbiological:analysis.csv</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </dcatapit:Distribution>
+  <dcatapit:Distribution rdf:about="https://github.com/fbranda/dati-epidemiologici/hepatitis/csv15">
+    <dcat:accessURL rdf:resource="https://github.com/fbranda/dati-epidemiologici/blob/main/hepatitis/ECDC-WHO:Regional:Office:for_Europe/timeseries:sex:cases.csv"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="CSV"/>
+    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+    <dct:title>timeseries:sex:cases.csv</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </dcatapit:Distribution>
+  <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/HEAL">
+    <skos:prefLabel>Salute</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://eurovoc.europa.eu/100215">
+    <skos:prefLabel xml:lang="it">2841 salute</skos:prefLabel>
+  </skos:Concept>
+<dcatapit:Organization rdf:about="https://dimes.unical.it/">
+  <rdf:type rdf:resource="vcard:Organization"/>
+  <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+  <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+  <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Organization"/>
+  <rdf:type rdf:resource="vcard:Kind"/>
+  <vcard:fn>Dipartimento di Ingegneria Informatica, Modellistica, Elettronica e Sistemistica</vcard:fn>
+  <vcard:hasEmail rdf:resource="francesco.branda@unical.it"/>
+  <vcard:hasTelephone>+390984494971</vcard:hasTelephone>
+  <vcard:hasURL rdf:resource="https://dimes.unical.it/"/>
+</dcatapit:Organization>
+</rdf:RDF>
