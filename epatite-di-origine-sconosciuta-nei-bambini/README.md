@@ -11,7 +11,7 @@ This repository contains data extracted from the [ECDC-WHO/Europe surveillance b
 
 ## Getting the data
 
-**Direct download (CSV)**: [https://raw.githubusercontent.com/fbranda/hepatitis/main/ECDC-WHO_Regional_Office_for_Europe/timeseries_cases.csv](https://raw.githubusercontent.com/fbranda/dati-epidemiologici/main/epatite-di-origine-sconosciuta-nei-bambini/ECDC-WHO-Regional-Office-for-Europe/timeseries-cases.csv)
+**Direct download (CSV)**: https://raw.githubusercontent.com/fbranda/dati-epidemiologici/main/epatite-di-origine-sconosciuta-nei-bambini/ECDC-WHO-Regional-Office-for-Europe/timeseries-cases.csv
 
 **Python** (requires `pandas`):
 ```python
