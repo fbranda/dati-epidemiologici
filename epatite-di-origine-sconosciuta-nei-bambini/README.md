@@ -2,7 +2,12 @@
 
 ## Contents
 
-This repository contains data extracted from the [ECDC-WHO/Europe surveillance bulletin](https://www.ecdc.europa.eu/en/hepatitis/joint-weekly-hepatitis-unknown-origin-children-surveillance-bulletin) bulletins starting from the week of September 27, 2021. 
+This repository contains data extracted from the [ECDC-WHO/Europe surveillance bulletin](https://www.ecdc.europa.eu/en/hepatitis/joint-weekly-hepatitis-unknown-origin-children-surveillance-bulletin) bulletins starting from the week of September 27, 2021.
+
+## Data notes
+
+- Data files with `*-latest.csv` suffix refer to the data reported in the last bulletin. 
+- Data files with `timeseries-*.csv` prefix refer to the data reported from the first to the most recent bulletin. 
 
 ## Getting the data
 
