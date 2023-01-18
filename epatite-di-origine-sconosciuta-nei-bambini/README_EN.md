@@ -1,8 +1,8 @@
+<a href="https://cdn.ecdc.europa.eu/novhep-surveillance/"><img src="https://github.com/fbranda/dati-epidemiologici/blob/main/assets/img/logo-epatiti.png" alt="Epatiti" data-canonical-src="https://github.com/fbranda/dati-epidemiologici/blob/main/assets/img/logo-epatiti.png" width="900"/></a>
+
+[Italiano](README.md) - [English](README_EN.md)<br><br>
+
 # Hepatitis of unknown origin in children
-
-## Contents
-
-This repository contains data extracted from the [ECDC-WHO/Europe surveillance bulletin](https://www.ecdc.europa.eu/en/hepatitis/joint-weekly-hepatitis-unknown-origin-children-surveillance-bulletin) bulletins starting from the week of September 27, 2021.
 
 ## Data notes
 
