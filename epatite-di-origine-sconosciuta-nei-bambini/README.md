@@ -6,11 +6,6 @@
 
 Questo repository contiene i dati estratti dai bollettini [ECDC-WHO/Europe](https://cdn.ecdc.europa.eu/novhep-surveillance/). 
 
-## Note sui dati 
-
-- I file con suffisso `*-latest.csv` si riferiscono ai dati riportati nell'ultimo bollettino.
-- I file con prefisso `timeseries-*.csv` si riferiscono ai dati riportati dal primo al più recente bollettino.  
-
 ## Esempio d'uso dei dati
 
 **Download diretto (CSV)**: https://raw.githubusercontent.com/fbranda/dati-epidemiologici/main/epatite-di-origine-sconosciuta-nei-bambini/ECDC-WHO-Regional-Office-for-Europe/case-count.csv
