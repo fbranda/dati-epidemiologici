@@ -12,36 +12,38 @@
 ## Repository structure
 ```
 
-influnet/
+```
+
+influenza-stagionale/
 ├── flu-season/
 │   ├── 2003-2004/
-│   │   ├── epidemiological_data/
-│   │       ├── national_cases.csv
-│   │   ├── influnet_report/
-│   │       ├── influnet-epi-2005-2006.pdf
+│   │   ├── epidemiological-data/
+│   │       ├── national-cases-2003-2004.csv
+│   │   ├── influnet-report/
+│   │       ├── influnet-epi-2003-2004.pdf
 │   ├── ...
 │   │
 │   │   
 │   │
 │   ├── 2012-2013/
-│   │   ├── epidemiological_data/
-│   │       ├── national_cases.csv
-│   │       ├── regional_cases.csv
-│   │   ├── influnet_report/
+│   │   ├── epidemiological-data/
+│   │       ├── national-cases-2012-2013.csv
+│   │       ├── regional-cases-2012-2013.csv
+│   │   ├── influnet-report/
 │   │       ├── influnet-epi/
 │   │           ├── influnet-epi-2012-2013_1.pdf
 │   │           ├── ...
 │   │       ├── influnet-vir/
 │   │           ├── influnet-vir-2012-2013_1.pdf
 │   │           ├── ...
-│   │   ├── virological_data/
-│   │       ├── national_typing_subtyping_influenza_viruses.csv
+│   │   ├── virological-data/
+│   │       ├── virological-cases-2012-2013.csv
 ├── data-aggregated/
-│   ├── epidemiological_data/
-│   │   ├── national_cases.csv
-│   │   ├── regional_cases.csv
-│   ├── virological_data/
-│   │   ├── national_typing_subtyping_influenza_viruses.csv
+│   ├── epidemiological-data/
+│   │   ├── timeseries-national-cases.csv
+│   │   ├── timeseries-regional-cases.csv
+│   ├── virological-data/
+│   │   ├── timeseries-virological-cases.csv
 
 
 ```
