@@ -3,12 +3,12 @@
 [Italiano](README.md) - [English](README_EN.md)<br><br>
 
 
-# Seasonal influenza
+# Influenza stagionale
 
-This repository contains data extracted from the [Italian National Institute of Health (ISS)](https://www.epicentro.iss.it/influenza/influnet) bulletins starting from the [2003-2004 seasonal flu](https://w3.iss.it/site/rmi/influnet/pagine/stagioni.aspx).
+Questo repository contiene i dati estratti dai bollettini dell'[Istituto Superiore di Sanità (ISS)](https://www.epicentro.iss.it/influenza/influnet) a partire dalla [stagione influenzale 2003-2004](https://w3.iss.it/site/rmi/influnet/pagine/stagioni.aspx).
 
 
-## Repository structure
+## Struttura del repository
 ```
 
 influnet/
@@ -44,33 +44,33 @@ influnet/
 
 
 ```
-## Data format
+## Formato dei dati
 
-[Evoulution data about seasonal influenza Italy](data-schema-flu-italy.md)
+[Dati andamento influenza Italia](data-schema-influenza-italia.md)
 
-## Getting the data
+## Esempio d'uso dei dati
 
-**Direct download (CSV)**: https://raw.githubusercontent.com/fbranda/dati-epidemiologici/main/influenza-stagionale/flu-season/2022-2023/epidemiological-data/national-cases-2022-2023.csv
+**Download diretto (CSV)**: https://raw.githubusercontent.com/fbranda/dati-epidemiologici/main/influenza-stagionale/flu-season/2022-2023/epidemiological-data/national-cases-2022-2023.csv
 
-**Python** (requires `pandas`):
+**Python** (richiede `pandas`):
 ```python
 import pandas as pd
 df = pd.read_csv("https://raw.githubusercontent.com/fbranda/dati-epidemiologici/main/influenza-stagionale/flu-season/2022-2023/epidemiological-data/national-cases-2022-2023.csv")
 ```
 
-**R** (requires `httr`):
+**R** (richiede `httr`):
 ```r
 library(httr)
 df <- read.csv(text=content(GET("https://raw.githubusercontent.com/fbranda/dati-epidemiologici/main/influenza-stagionale/flu-season/2022-2023/epidemiological-data/national-cases-2022-2023.csv")))
 ```
 
-## Contributions
-1) Automatic report at link https://fbranda.github.io/influnet/
-2) Automatic bot at link https://mastodon.uno/@influbot@sociale.network
+## Contributi
+1) [Report automatico](https://fbranda.github.io/influnet/)
+2) [Bot automatico](https://mastodon.uno/@influbot@sociale.network)
 
 
-## License 
+## Licenza
 
-This repository and data exports are published under the CC BY 4.0 license.
+[CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/deed.it) - [Visualizza licenza](https://github.com/fbranda/west-nile/blob/main/LICENSE.md)
 
 
