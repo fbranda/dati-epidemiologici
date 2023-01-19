@@ -12,8 +12,6 @@
 ## Repository structure
 ```
 
-```
-
 influenza-stagionale/
 ├── flu-season/
 │   ├── 2003-2004/
@@ -44,8 +42,6 @@ influenza-stagionale/
 │   │   ├── timeseries-regional-cases.csv
 │   ├── virological-data/
 │   │   ├── timeseries-virological-cases.csv
-
-
 ```
 
  ## Data format
