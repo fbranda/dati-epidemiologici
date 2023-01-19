@@ -4,8 +4,7 @@
 
 # Hepatitis of unknown origin in children
 
-This repository provides an overview of the cases of hepatitis of unknown origin in children aged 16 years and below reported to [ECDC and the WHO Regional Office for Europe](https://cdn.ecdc.europa.eu/novhep-surveillance/), through The European Surveillance System (TESSy)
-
+This repository contains data extracted from the [ECDC-WHO/Europe surveillance](https://cdn.ecdc.europa.eu/novhep-surveillance/) bulletins. 
 
 ## Data notes
 
