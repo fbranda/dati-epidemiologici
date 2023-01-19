@@ -45,7 +45,7 @@ influnet/
 
 ```
 
-<a href="data-schema-flu-italy.m">## Data format</a>
+<a style="font-weight:bold" href="data-schema-flu-italy.md"> Data format</a>
 
 ## Getting the data
 
