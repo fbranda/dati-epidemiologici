@@ -2,9 +2,6 @@
 
 # Evoulution data about seasonal influenza
 
-
-## Data formats
-
 ### Epidemiological data schema
 
 **Directory:**  epidemiological-data<br>
