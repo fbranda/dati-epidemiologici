@@ -37,10 +37,10 @@ influenza-stagionale/
 │   │       ├── virological-cases-2012-2013.csv
 ├── data-aggregated/
 │   ├── epidemiological-data/
-│   │   ├── national-cases.csv
-│   │   ├── regional-cases.csv
+│   │   ├── timeseries-national-cases.csv
+│   │   ├── timeseries-regional-cases.csv
 │   ├── virological-data/
-│   │   ├── virological-cases.csv
+│   │   ├── timeseries-virological-cases.csv
 
 
 ```
