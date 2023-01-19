@@ -1,4 +1,4 @@
-<a href="https://w3.iss.it/site/rmi/influnet/pagine/rapportoinflunet.aspx"><img src="https://github.com/fbranda/dati-epidemiologici/blob/main/assets/img/logo-influnet.png" alt="Influenza" data-canonical-src="https://github.com/fbranda/dati-epidemiologici/blob/main/assets/img/logo-influnet.png" width="300"/></a>
+<a href="https://w3.iss.it/site/rmi/influnet/pagine/rapportoinflunet.aspx"><img src="https://github.com/fbranda/dati-epidemiologici/blob/main/assets/img/logo-influnet.jpg" alt="Influenza" data-canonical-src="https://github.com/fbranda/dati-epidemiologici/blob/main/assets/img/logo-influnet.jpg" width="300"/></a>
 
 [Italiano](README.md) - [English](README_EN.md)<br><br>
 
@@ -45,83 +45,25 @@ influnet/
 
 ```
 
+## Data formats
 
-
-## Epidemiological data schema
-
-### National cases
-
-| Column      | DataType | Description     |
-| :---        |    :----:   |          ---: |
-| flu_season      | String       | Flu season reference period  |
-| year_week     |  String       | Bulletin reference week   |
-| number_healthcare_workers   | Integer | Number of cases reported by the healthcare workers  |
-| number_cases  | Integer | Weekly number of new confirmed cases  |
-| population | Integer | Reference population |
-| incidence | Double | 1000 x number_cases/population |
-| pop_0-4 | Integer | 0-4 reference population  |
-| cases_0-4 | Integer | 0-4 weekly new cases  |
-| inc_0-4 | Double | 1000 x cases_age_0-4/pop_age_0-4  |
-| pop_5-14 | Integer | 5-14 reference population  |
-| cases_5-14 | Integer | 5-14 weekly new cases  |
-| inc_5-14 | Double | 1000 x cases_age_5-14/pop_age_5-14  |
-| pop_15-64 | Integer | 15-64 reference population  |
-| cases_15-64 | Integer | 15-64 weekly new cases  |
-| inc_15-64 | Double | 1000 x cases_age_15-64/pop_age_15-64  |
-| pop_65+ | Integer | ≥65 reference population  |
-| cases_65+ | Integer | ≥65 weekly new cases  |
-| inc_65+ | Double | 1000 x cases_age_65-plus/pop_age_65-plus  |
-
-### Regional cases
-
-| Column      | DataType | Description     |
-| :---        |    :----:   |          ---: |
-| flu_season      | String       | Flu season reference period  |
-| year_week     |  String       | Bulletin reference week   |
-| region     |  String       | Region name   |
-| number_healthcare_workers   | Integer | Number of cases reported by the healthcare workers  |
-| number_cases  | Integer | Weekly number of new confirmed cases  |
-| population | Integer | Reference population |
-| incidence | Double | 1000 x number_cases/population |
-| pop_0-4 | Integer | 0-4 reference population  |
-| cases_0-4 | Integer | 0-4 weekly new cases  |
-| inc_0-4 | Double | 1000 x cases_age_0-4/pop_age_0-4  |
-| pop_5-14 | Integer | 5-14 reference population  |
-| cases_5-14 | Integer | 5-14 weekly new cases  |
-| inc_5-14 | Double | 1000 x cases_age_5-14/pop_age_5-14  |
-| pop_15-64 | Integer | 15-64 reference population  |
-| cases_15-64 | Integer | 15-64 weekly new cases  |
-| inc_15-64 | Double | 1000 x cases_age_15-64/pop_age_15-64  |
-| pop_65+ | Integer | ≥65 reference population  |
-| cases_65+ | Integer | ≥65 weekly new cases  |
-| inc_65+ | Double | 1000 x cases_age_65-plus/pop_age_65-plus  |
-
-## Virological data schema
-
-| Column      | DataType | Description     |
-| :---        |    :----:   |          ---: |
-| flu_season      | String       | Flu season reference period  |
-| year_week     |  String       | Bulletin reference week   |
-| influenza_viruses  |  String       |  Influenza virus name  |
-| number_samples | Integer | Clinical samples received from the laboratories  |
-| number_sequenced | Integer | Number of sequenced samples |
-| number_detections_influenza_viruses | Integer | Number of detections reported of the virus |
+- [Evoulution data about seasonal influenza](data-schema-flu-italy.md)<br>
 
 
 ## Getting the data
 
-**Direct download (CSV)**: https://raw.githubusercontent.com/fbranda/influnet/main/data-aggregated/epidemiological_data/national_cases.csv
+**Direct download (CSV)**: https://raw.githubusercontent.com/fbranda/dati-epidemiologici/main/influenza-stagionale/flu-season/2022-2023/epidemiological-data/national-cases-2022-2023.csv
 
 **Python** (requires `pandas`):
 ```python
 import pandas as pd
-df = pd.read_csv("https://raw.githubusercontent.com/fbranda/influnet/main/data-aggregated/epidemiological_data/national_cases.csv")
+df = pd.read_csv("https://raw.githubusercontent.com/fbranda/dati-epidemiologici/main/influenza-stagionale/flu-season/2022-2023/epidemiological-data/national-cases-2022-2023.csv")
 ```
 
 **R** (requires `httr`):
 ```r
 library(httr)
-df <- read.csv(text=content(GET("https://raw.githubusercontent.com/fbranda/influnet/main/data-aggregated/epidemiological_data/national_cases.csv")))
+df <- read.csv(text=content(GET("https://raw.githubusercontent.com/fbranda/dati-epidemiologici/main/influenza-stagionale/flu-season/2022-2023/epidemiological-data/national-cases-2022-2023.csv")))
 ```
 
 ## Contributions
