@@ -5,7 +5,7 @@
 ### Epidemiological data schema
 
 **Directory:**  epidemiological-data<br>
-**File structure:** national-cases-#.csv (example: national-cases-2022-2023.csv)<br>
+**Filename:** national-cases-#.csv (example: national-cases-2022-2023.csv)<br>
 
 
 | Field                 | Format                       |Description                      
@@ -30,7 +30,7 @@
 | **inc_65+** | Double | 1000 x cases_age_65-plus/pop_age_65-plus  |
 
 **Directory:**  epidemiological-data<br>
-**File structure:** regional-cases-#.csv (example: regional-cases-2022-2023.csv)<br>
+**Filename:** regional-cases-#.csv (example: regional-cases-2022-2023.csv)<br>
 
 | Field                 | Format                       |Description                      
 |-----------------------------|-----------------------------------|-------------------------------|
@@ -55,7 +55,7 @@
 ### Virological data schema
 
 **Directory:**  virological-data<br>
-**File structure:** virological-cases-#.csv (example: virological-cases-2022-2023.csv)<br>
+**Filename:** virological-cases-#.csv (example: virological-cases-2022-2023.csv)<br>
 
 
 | Field                 | Format                       |Description                      
