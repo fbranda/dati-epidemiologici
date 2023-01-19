@@ -32,7 +32,7 @@ df <- read.csv(text=content(GET("https://raw.githubusercontent.com/fbranda/dati-
 
 ## Licenza
 
-This repository and data exports are published under the CC BY 4.0 license.
+[CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/deed.it) - [Visualizza licenza](https://github.com/fbranda/west-nile/blob/main/LICENSE.md)
 
 
 
