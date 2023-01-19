@@ -44,8 +44,9 @@ influnet/
 
 
 ```
+## Data format
 
-<a style="font-weight:bold" href="data-schema-flu-italy.md"> Data format</a>
+[Evoulution data about seasonal influenza Italy](data-schema-flu-italy.md)
 
 ## Getting the data
 
