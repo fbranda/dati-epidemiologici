@@ -1,4 +1,4 @@
-<a href="https://w3.iss.it/site/rmi/influnet/pagine/rapportoinflunet.aspx"><img src="https://github.com/fbranda/dati-epidemiologici/blob/main/assets/img/logo-influnet.png" alt="Influenza" class="center" data-canonical-src="https://github.com/fbranda/dati-epidemiologici/blob/main/assets/img/logo-influnet.png" width="300"/></a>
+<a href="https://w3.iss.it/site/rmi/influnet/pagine/rapportoinflunet.aspx"><p style="text-align:center;"><img src="https://github.com/fbranda/dati-epidemiologici/blob/main/assets/img/logo-influnet.png" alt="Influenza" data-canonical-src="https://github.com/fbranda/dati-epidemiologici/blob/main/assets/img/logo-influnet.png" width="300"/></p></a>
 
 [Italiano](README.md) - [English](README_EN.md)<br><br>
 
