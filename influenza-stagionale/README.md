@@ -11,7 +11,7 @@ Questo repository contiene i dati estratti dai bollettini dell'[Istituto Superio
 ## Struttura del repository
 ```
 
-influnet/
+influenza-stagionale/
 ├── flu-season/
 │   ├── 2003-2004/
 │   │   ├── epidemiological_data/
