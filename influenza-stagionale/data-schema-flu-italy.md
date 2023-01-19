@@ -63,7 +63,7 @@
 | **flu_season**      | String       | Flu season reference period  |
 | **year_week**     |  String       | Bulletin reference week   |
 | **influenza_viruses**  |  String       |  Influenza virus name  |
-| **number_samples** | Integer | Clinical samples received from the laboratories  |
+| **number_samples** | Integer | Number of clinical samples received from the laboratories  |
 | **number_sequenced** | Integer | Number of sequenced samples |
 | **number_detections_influenza_viruses** | Integer | Number of detections reported of the virus |
 
