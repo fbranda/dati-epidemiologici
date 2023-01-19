@@ -2,12 +2,6 @@
 
 # Dati andamento West Nile Italia
 
-## Aggiornamento dei dati
-
-- Dati andamento West Nile Italia: ogni mercoledì
-
-## Formato dei dati
-
 ### Sorveglianza umana
 
 **Directory:**  dati-sorveglianza-umana<br>
@@ -16,7 +10,6 @@
 
 | Nome campo                  | Descrizione                       |Formato                       | Esempio             |
 |-----------------------------|-----------------------------------|-------------------------------|---------------------|
-| **url_bollettino**              | Link del bollettino in formato pdf | Testo | https://github.com/fbranda/west-nile/blob/main/2012/bollettini/WN_News_2012_01.pdf	|
 | **data**                        | Data dell'informazione            | YYYY-MM-DD | 2012-09-27	|
 | **codice_regione**              | Codice della Regione (ISTAT) | Numero                        | 6                  |
 | **denominazione_regione**       | Denominazione della Regione       | Testo                         | Friuli Venezia Giulia             |
@@ -32,7 +25,6 @@
 
 | Nome campo              | Descrizione                         | Formato            | Esempio              |
 |-------------------------|-------------------------------------|--------------------|----------------------|
-| **url_bollettino**              | Link del bollettino in formato pdf | Testo | https://github.com/fbranda/west-nile/blob/main/2012/bollettini/WN_News_2012_01.pdf	|
 | **data**                    | Data dell'informazione              | YYYY-MM-DD           | 2012-09-27	 |                   |
 | **codice_regione**          | Codice della Regione (ISTAT)  | Numero             | 6                   |
 | **denominazione_regione**   | Denominazione della Regione        | Testo              | Friuli Venezia Giulia              |
@@ -54,7 +46,6 @@
 
 | Nome campo                  | Descrizione                       | Formato                       | Esempio             |
 |-----------------------------|-----------------------------------|-------------------------------|---------------------|
-| **url_bollettino**              | Link del bollettino in formato pdf | Testo | https://github.com/fbranda/west-nile/blob/main/2017/bollettini/WN_News_2017_01.pdf	|
 | **data**                    | Data dell'informazione              | YYYY-MM-DD           | 2017-08-02		 |                   |
 | **codice_regione**          | Codice della Regione (ISTAT)   | Numero             | 8                  |
 | **denominazione_regione**   | Denominazione della Regione       | Testo              | Emilia-Romagna              |
@@ -74,7 +65,6 @@
 
 | Nome campo                  | Descrizione                       | Formato                       | Esempio             |
 |-----------------------------|-----------------------------------|-------------------------------|---------------------|
-| **url_bollettino**              | Link del bollettino in formato pdf | Testo | https://github.com/fbranda/west-nile/blob/main/2017/bollettini/WN_News_2017_01.pdf	|
 | **data**                    | Data dell'informazione             | YYYY-MM-DD           | 2017-08-02		 |                   |
 | **codice_regione**          | Codice della Regione (ISTAT)   | Numero             | 5                  |
 | **denominazione_regione**   | Denominazione della Regione      | Testo              | Veneto              |
@@ -97,7 +87,6 @@
 
 | Nome campo                  | Descrizione                       | Formato                       | Esempio             |
 |-----------------------------|-----------------------------------|-------------------------------|---------------------|
-| **url_bollettino**              | Link del bollettino in formato pdf | Testo | https://github.com/fbranda/west-nile/blob/main/2017/bollettini/WN_News_2017_01.pdf	|
 | **data**                    | Data dell'informazione             | YYYY-MM-DD           | 2017-08-02		 |                   |
 | **codice_regione**          | Codice della Regione (ISTAT)   | Numero             | 8                 |
 | **denominazione_regione**   | Denominazione della Regione      | Testo              | Emilia-Romagna              |
@@ -115,7 +104,6 @@
 
 | Nome campo                  | Descrizione                       | Formato                       | Esempio             |
 |-----------------------------|-----------------------------------|-------------------------------|---------------------|
-| **url_bollettino**              | Link del bollettino in formato pdf | Testo | https://github.com/fbranda/west-nile/blob/main/2017/bollettini/WN_News_2017_01.pdf	|
 | **data**                    | Data dell'informazione             | YYYY-MM-DD           | 2017-08-02		 |                   |
 | **codice_regione**          | Codice della Regione (ISTAT)   | Numero             | 8                 |
 | **denominazione_regione**   | Denominazione della Regione      | Testo              | Emilia-Romagna              |
@@ -136,7 +124,6 @@
 
 | Nome campo                  | Descrizione                       | Formato                       | Esempio             |
 |-----------------------------|-----------------------------------|-------------------------------|---------------------|
-| **url_bollettino**              | Link del bollettino in formato pdf | Testo | https://github.com/fbranda/west-nile/blob/main/2017/bollettini/WN_News_2017_01.pdf	|
 | **data**                    | Data dell'informazione             | YYYY-MM-DD           | 2017-08-02		 |                   |
 | **host**          | Organismo ospite  (`uomini`, `equidi`, `uccelli bersaglio`, `uccelli selvatici`, `zanzare`)   | Testo             | uomini               |
 | **nuovi_casi**  | Nuovi attualmente positivi (casi_totali giorno corrente - casi_totali giorno precedente)    | Numero                        | 4               |
