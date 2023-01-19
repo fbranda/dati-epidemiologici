@@ -26,6 +26,7 @@
   <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-01-18</dct:issued>
   <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
   <dcat:dataset rdf:resource="https://github.com/fbranda/dati-epidemiologici/tree/main/epatite-di-origine-sconosciuta-nei-bambini"/>
+  <dcat:dataset rdf:resource="https://github.com/fbranda/dati-epidemiologici/tree/main/influenza-stagionale"/>
   </dcatapit:Catalog>
   <dcatapit:Dataset rdf:about="https://github.com/fbranda/dati-epidemiologici/tree/main/epatite-di-origine-sconosciuta-nei-bambini">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
@@ -56,7 +57,7 @@
     <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
     <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
     <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-12-24</dct:modified>
-    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-06-29</dct:issued>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-04-25</dct:issued>
     <dcat:contactPoint rdf:resource="https://dimes.unical.it/"/>
     <dcat:keyword>epatite</dcat:keyword>
     <dcat:keyword>salute pubblica</dcat:keyword>
@@ -75,6 +76,45 @@
     <dcat:distribution rdf:resource="https://github.com/fbranda/dati-epidemiologici/tree/main/epatite-di-origine-sconosciuta-nei-bambini/csv13"/>
     <dcat:distribution rdf:resource="https://github.com/fbranda/dati-epidemiologici/tree/main/epatite-di-origine-sconosciuta-nei-bambini/csv14"/>
     <dcat:distribution rdf:resource="https://github.com/fbranda/dati-epidemiologici/tree/main/epatite-di-origine-sconosciuta-nei-bambini/csv15"/>
+  </dcatapit:Dataset>
+  <dcatapit:Dataset rdf:about="https://github.com/fbranda/dati-epidemiologici/tree/main/influenza-stagionale">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/HEAL"/>
+    <dct:license/>
+    <dct:title>Influenza stagionale</dct:title>
+    <dct:landingpage>https://github.com/fbranda/dati-epidemiologici/tree/main/influenza-stagionale</dct:landingpage>
+    <dct:description>Questo dataset mette a disposizione i dati epidemiologici (cioè, l'inizio, la durata e intensità dell'epidemia stagionale), e virologici (cioè, il monitoraggio della circolazione dei diversi tipi, nonché sottotipi, di virus influenzali) accolti ed elaborati dall’Istituto Superiore di Sanità (ISS) in un rapporto settimanale. Maggiori informazioni sono disponibili al link: https://www.epicentro.iss.it/influenza/influnet</dct:description>
+    <dct:identifier>unical:influenza-stagionale</dct:identifier>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/WEEKLY"/>
+    <dcat:contactPoint rdf:resource="https://dimes.unical.it/"/>
+    <dct:rightsHolder>
+      <dcatapit:Agent rdf:about="unical">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>unical</dct:identifier>
+        <foaf:name>Università della Calabria</foaf:name>
+      </dcatapit:Agent>
+    </dct:rightsHolder>
+    <dct:publisher>
+      <dcatapit:Agent rdf:about="unical">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>unical</dct:identifier>
+        <foaf:name>Università della Calabria</foaf:name>
+      </dcatapit:Agent>
+    </dct:publisher>
+    <dct:subject rdf:resource="http://eurovoc.europa.eu/100215"/>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-01-13</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-04-26</dct:issued>
+    <dcat:contactPoint rdf:resource="https://dimes.unical.it/"/>
+    <dcat:keyword>influenza</dcat:keyword>
+    <dcat:keyword>salute pubblica</dcat:keyword>
+    <dcat:keyword>sorveglianza epidemiologica</dcat:keyword>
+    <dcat:distribution rdf:resource="https://github.com/fbranda/dati-epidemiologici/tree/main/influenza-stagionale/csv16"/>
+    <dcat:distribution rdf:resource="https://github.com/fbranda/dati-epidemiologici/tree/main/influenza-stagionale/csv17"/>
+    <dcat:distribution rdf:resource="https://github.com/fbranda/dati-epidemiologici/tree/main/influenza-stagionale/csv18"/>
+    <dcat:distribution rdf:resource="https://github.com/fbranda/dati-epidemiologici/tree/main/influenza-stagionale/csv19"/>
   </dcatapit:Dataset>
   <dcatapit:Distribution rdf:about="https://github.com/fbranda/dati-epidemiologici/tree/main/epatite-di-origine-sconosciuta-nei-bambini/csv2">
     <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/fbranda/dati-epidemiologici/main/epatite-di-origine-sconosciuta-nei-bambini/ECDC-WHO-Regional-Office-for-Europe/age-cases-latest.csv"/>
@@ -272,6 +312,68 @@
     <dct:title>timeseries sex cases</dct:title>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </dcatapit:Distribution>
+  <dcatapit:Distribution rdf:about="https://github.com/fbranda/dati-epidemiologici/tree/main/influenza-stagionale/csv16">
+    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/fbranda/dati-epidemiologici/main/influenza-stagionale/data-aggregated/epidemiological-data/timeseries-national-cases.csv"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="CSV"/>
+    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+    <dct:title>timeseries national cases</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </dcatapit:Distribution>
+  <dcatapit:Distribution rdf:about="https://github.com/fbranda/dati-epidemiologici/tree/main/influenza-stagionale/csv17">
+    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/fbranda/dati-epidemiologici/main/influenza-stagionale/data-aggregated/epidemiological-data/timeseries-regional-cases.csv"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="CSV"/>
+    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+    <dct:title>timeseries regional cases</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </dcatapit:Distribution>
+  <dcatapit:Distribution rdf:about="https://github.com/fbranda/dati-epidemiologici/tree/main/influenza-stagionale/csv18">
+    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/fbranda/dati-epidemiologici/main/influenza-stagionale/flu-season/2022-2023/epidemiological-data/national-cases-2022-2023.csv"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="CSV"/>
+    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+    <dct:title>national cases latest</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </dcatapit:Distribution>
+  <dcatapit:Distribution rdf:about="https://github.com/fbranda/dati-epidemiologici/tree/main/influenza-stagionale/csv19">
+    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/fbranda/dati-epidemiologici/main/influenza-stagionale/flu-season/2022-2023/epidemiological-data/regional-cases-2022-2023.csv"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="CSV"/>
+    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+    <dct:title>regional cases latest</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </dcatapit:Distribution>
+  <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/HEAL">
+    <skos:prefLabel>Salute</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://eurovoc.europa.eu/100215">
+    <skos:prefLabel xml:lang="it">2841 salute</skos:prefLabel>
+  </skos:Concept>
   <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/HEAL">
     <skos:prefLabel>Salute</skos:prefLabel>
   </skos:Concept>
