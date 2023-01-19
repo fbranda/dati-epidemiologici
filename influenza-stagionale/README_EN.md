@@ -1,14 +1,11 @@
-# InfluNet
+<a href="https://w3.iss.it/site/rmi/influnet/pagine/rapportoinflunet.aspx"><img src="https://github.com/fbranda/dati-epidemiologici/blob/main/assets/img/logo-influnet.png" alt="Influenza" data-canonical-src="https://github.com/fbranda/dati-epidemiologici/blob/main/assets/img/logo-influnet.png" width="900"/></a>
 
-## Contents
-
-This repository contains data extracted from the [Italian National Institute of Health (ISS)](https://www.epicentro.iss.it/influenza/influnet) bulletins starting from the [2003-2004 seasonal flu](https://w3.iss.it/site/rmi/influnet/pagine/stagioni.aspx). The repository will be updated every Friday.
-
-#### Data notes
-* **2022-12-30**: Update December 30, 2022 bulletin (`influnet-epi-2022-2023_9.pdf`) contains a probable error regarding incidence in the 0-4 age group in Aosta Valley: 179.19 --> 17.92 
+[Italiano](README.md) - [English](README_EN.md)<br><br>
 
 
+# Seasonal influenza
 
+This repository contains data extracted from the [Italian National Institute of Health (ISS)](https://www.epicentro.iss.it/influenza/influnet) bulletins starting from the [2003-2004 seasonal flu](https://w3.iss.it/site/rmi/influnet/pagine/stagioni.aspx).
 
 
 ## Repository structure
@@ -111,9 +108,6 @@ influnet/
 | number_detections_influenza_viruses | Integer | Number of detections reported of the virus |
 
 
-
-
-
 ## Getting the data
 
 **Direct download (CSV)**: https://raw.githubusercontent.com/fbranda/influnet/main/data-aggregated/epidemiological_data/national_cases.csv
@@ -135,7 +129,7 @@ df <- read.csv(text=content(GET("https://raw.githubusercontent.com/fbranda/influ
 2) Automatic bot at link https://mastodon.uno/@influbot@sociale.network
 
 
-## License and attribution
+## License 
 
 This repository and data exports are published under the CC BY 4.0 license.
 
