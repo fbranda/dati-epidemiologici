@@ -46,7 +46,7 @@ influnet/
 ```
 ## Formato dei dati
 
-[Dati andamento influenza Italia](data-schema-influenza-italia.md)
+- [Dati andamento influenza Italia](data-schema-influenza-italia.md)
 
 ## Esempio d'uso dei dati
 
