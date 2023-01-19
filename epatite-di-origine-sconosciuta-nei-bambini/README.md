@@ -4,6 +4,8 @@
 
 # Epatite di origine sconosciuta nei bambini
 
+Questo archivio contiene i dati estratti dai bollettini[ECDC-WHO/Europe](https://cdn.ecdc.europa.eu/novhep-surveillance/). 
+
 ## Note sui dati 
 
 - I file con suffisso `*-latest.csv` si riferiscono ai dati riportati nell'ultimo bollettino.
