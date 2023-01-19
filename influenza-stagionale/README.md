@@ -15,17 +15,17 @@ influenza-stagionale/
 ├── flu-season/
 │   ├── 2003-2004/
 │   │   ├── epidemiological-data/
-│   │       ├── national-cases.csv
+│   │       ├── national-cases-2003-2004.csv
 │   │   ├── influnet-report/
-│   │       ├── influnet-epi-2005-2006.pdf
+│   │       ├── influnet-epi-2003-2004.pdf
 │   ├── ...
 │   │
 │   │   
 │   │
 │   ├── 2012-2013/
 │   │   ├── epidemiological-data/
-│   │       ├── national-cases.csv
-│   │       ├── regional-cases.csv
+│   │       ├── national-cases-2012-2013.csv
+│   │       ├── regional-cases-2012-2013.csv
 │   │   ├── influnet-report/
 │   │       ├── influnet-epi/
 │   │           ├── influnet-epi-2012-2013_1.pdf
