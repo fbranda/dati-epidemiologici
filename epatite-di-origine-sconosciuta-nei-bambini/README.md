@@ -4,7 +4,7 @@
 
 # Epatite di origine sconosciuta nei bambini
 
-Questo repository contiene i dati estratti dai bollettini[ECDC-WHO/Europe](https://cdn.ecdc.europa.eu/novhep-surveillance/). 
+Questo repository contiene i dati estratti dai bollettini [ECDC-WHO/Europe](https://cdn.ecdc.europa.eu/novhep-surveillance/). 
 
 ## Note sui dati 
 
