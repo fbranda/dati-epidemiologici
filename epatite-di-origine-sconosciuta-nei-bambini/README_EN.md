@@ -6,25 +6,20 @@
 
 This repository contains data extracted from the [ECDC-WHO/Europe surveillance](https://cdn.ecdc.europa.eu/novhep-surveillance/) bulletins. 
 
-## Data notes
-
-- Data files with `*-latest.csv` suffix refer to the data reported in the last bulletin. 
-- Data files with `timeseries-*.csv` prefix refer to the data reported from the first to the most recent bulletin. 
-
 ## Getting the data
 
-**Direct download (CSV)**: https://raw.githubusercontent.com/fbranda/dati-epidemiologici/main/epatite-di-origine-sconosciuta-nei-bambini/ECDC-WHO-Regional-Office-for-Europe/timeseries-cases.csv
+**Direct download (CSV)**: https://raw.githubusercontent.com/fbranda/dati-epidemiologici/main/epatite-di-origine-sconosciuta-nei-bambini/ECDC-WHO-Regional-Office-for-Europe/case-count.csv
 
 **Python** (requires `pandas`):
 ```python
 import pandas as pd
-df = pd.read_csv("https://raw.githubusercontent.com/fbranda/dati-epidemiologici/main/epatite-di-origine-sconosciuta-nei-bambini/ECDC-WHO-Regional-Office-for-Europe/timeseries-cases.csv")
+df = pd.read_csv("https://raw.githubusercontent.com/fbranda/dati-epidemiologici/main/epatite-di-origine-sconosciuta-nei-bambini/ECDC-WHO-Regional-Office-for-Europe/case-count.csv")
 ```
 
 **R** (requires `httr`):
 ```r
 library(httr)
-df <- read.csv(text=content(GET("https://raw.githubusercontent.com/fbranda/dati-epidemiologici/main/epatite-di-origine-sconosciuta-nei-bambini/ECDC-WHO-Regional-Office-for-Europe/timeseries-cases.csv")))
+df <- read.csv(text=content(GET("https://raw.githubusercontent.com/fbranda/dati-epidemiologici/main/epatite-di-origine-sconosciuta-nei-bambini/ECDC-WHO-Regional-Office-for-Europe/case-count.csv")))
 ```
 
 ## Contributions
