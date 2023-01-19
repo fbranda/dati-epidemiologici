@@ -14,33 +14,33 @@ Questo repository contiene i dati estratti dai bollettini dell'[Istituto Superio
 influenza-stagionale/
 ├── flu-season/
 │   ├── 2003-2004/
-│   │   ├── epidemiological_data/
-│   │       ├── national_cases.csv
-│   │   ├── influnet_report/
+│   │   ├── epidemiological-data/
+│   │       ├── national-cases.csv
+│   │   ├── influnet-report/
 │   │       ├── influnet-epi-2005-2006.pdf
 │   ├── ...
 │   │
 │   │   
 │   │
 │   ├── 2012-2013/
-│   │   ├── epidemiological_data/
-│   │       ├── national_cases.csv
-│   │       ├── regional_cases.csv
-│   │   ├── influnet_report/
+│   │   ├── epidemiological-data/
+│   │       ├── national-cases.csv
+│   │       ├── regional-cases.csv
+│   │   ├── influnet-report/
 │   │       ├── influnet-epi/
 │   │           ├── influnet-epi-2012-2013_1.pdf
 │   │           ├── ...
 │   │       ├── influnet-vir/
 │   │           ├── influnet-vir-2012-2013_1.pdf
 │   │           ├── ...
-│   │   ├── virological_data/
-│   │       ├── national_typing_subtyping_influenza_viruses.csv
+│   │   ├── virological-data/
+│   │       ├── virological-cases-2012-2013.csv
 ├── data-aggregated/
-│   ├── epidemiological_data/
-│   │   ├── national_cases.csv
-│   │   ├── regional_cases.csv
-│   ├── virological_data/
-│   │   ├── national_typing_subtyping_influenza_viruses.csv
+│   ├── epidemiological-data/
+│   │   ├── national-cases.csv
+│   │   ├── regional-cases.csv
+│   ├── virological-data/
+│   │   ├── virological-cases.csv
 
 
 ```
