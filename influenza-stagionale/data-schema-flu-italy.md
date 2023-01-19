@@ -5,7 +5,7 @@
 ### Epidemiological data schema
 
 **Directory:**  epidemiological-data<br>
-**File structure:** national-cases-#.csv (national-cases-2022-2023.csv)<br>
+**File structure:** national-cases-#.csv (example: national-cases-2022-2023.csv)<br>
 
 
 | Field                 | Format                       |Description                      
