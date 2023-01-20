@@ -22,11 +22,13 @@
       <dct:title>Data Theme Vocabulary</dct:title>
     </skos:ConceptScheme>
   </dcat:themeTaxonomy>
-  <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-01-18</dct:modified>
+  <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-01-20</dct:modified>
   <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-01-18</dct:issued>
   <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
   <dcat:dataset rdf:resource="https://github.com/fbranda/dati-epidemiologici/tree/main/epatite-di-origine-sconosciuta-nei-bambini"/>
   <dcat:dataset rdf:resource="https://github.com/fbranda/dati-epidemiologici/tree/main/influenza-stagionale"/>
+  <dcat:dataset rdf:resource="https://github.com/fbranda/dati-epidemiologici/tree/main/west-nile"/>
+  <dcat:dataset rdf:resource="https://github.com/fbranda/dati-epidemiologici/tree/main/vaiolo-delle-scimmie"/>
   </dcatapit:Catalog>
   <dcatapit:Dataset rdf:about="https://github.com/fbranda/dati-epidemiologici/tree/main/epatite-di-origine-sconosciuta-nei-bambini">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
@@ -34,7 +36,7 @@
     <dct:license/>
     <dct:title>Epatite di origine sconosciuta nei bambini</dct:title>
     <dct:landingpage>https://github.com/fbranda/dati-epidemiologici/tree/main/epatite-di-origine-sconosciuta-nei-bambini</dct:landingpage>
-    <dct:description>A partire dal 5 aprile 2022 il Regno Unito (UK) ha cominciato a notificare all’Organizzazione Mondiale della Sanità (OMS) un incremento di casi di epatite acuta grave a eziologia sconosciuta in bambini di età inferiore ai 16 anni, precedentemente sani. Per informare i cittadini e mettere a disposizione i dati raccolti, utili ai soli fini comunicativi e di ricerca, questo dataset fornisce una risorsa con cui avere una panoramica dei casi di epatite di origine sconosciuta nei bambini di età pari o inferiore a 16 anni segnalati all'ECDC e all'Ufficio regionale dell'OMS per l'Europa attraverso il Sistema di sorveglianza europeo (TESSy). Gli obiettivi principali di questo database sono: (i) facilitare le indagini epidemiologiche sulle dinamiche di trasmissione della malattia; (ii) supportare le decisioni cliniche e di salute pubblica.</dct:description>
+    <dct:description>A partire dal 5 aprile 2022 il Regno Unito (UK) ha cominciato a notificare all’Organizzazione Mondiale della Sanità (OMS) un incremento di casi di epatite acuta grave a eziologia sconosciuta in bambini di età inferiore ai 16 anni, precedentemente sani. Per facilitare le indagini epidemiologiche sulle dinamiche di trasmissione della malattia e supportare le decisioni cliniche e di salute pubblica, questi dati forniscono una risorsa con cui avere una panoramica dei casi di epatite di origine sconosciuta nei bambini di età pari o inferiore a 16 anni segnalati all'ECDC attraverso il Sistema di sorveglianza europeo (TESSy) e resi disponibili attraverso un report settimanale sul sito https://cdn.ecdc.europa.eu/novhep-surveillance/</dct:description>
     <dct:identifier>unical:epatite-di-origine-sconosciuta-nei-bambini</dct:identifier>
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/WEEKLY"/>
     <dcat:contactPoint rdf:resource="https://dimes.unical.it/"/>
@@ -50,7 +52,7 @@
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
         <dct:identifier>unical</dct:identifier>
-        <foaf:name>Università della Calabria</foaf:name>
+        <foaf:name>Dipartimento di Ingegneria Informatica, Modellistica, Elettronica e Sistemistica</foaf:name>
       </dcatapit:Agent>
     </dct:publisher>
     <dct:subject rdf:resource="http://eurovoc.europa.eu/100215"/>
@@ -69,13 +71,6 @@
     <dcat:distribution rdf:resource="https://github.com/fbranda/dati-epidemiologici/tree/main/epatite-di-origine-sconosciuta-nei-bambini/csv6"/>
     <dcat:distribution rdf:resource="https://github.com/fbranda/dati-epidemiologici/tree/main/epatite-di-origine-sconosciuta-nei-bambini/csv7"/>
     <dcat:distribution rdf:resource="https://github.com/fbranda/dati-epidemiologici/tree/main/epatite-di-origine-sconosciuta-nei-bambini/csv8"/>
-    <dcat:distribution rdf:resource="https://github.com/fbranda/dati-epidemiologici/tree/main/epatite-di-origine-sconosciuta-nei-bambini/csv9"/>
-    <dcat:distribution rdf:resource="https://github.com/fbranda/dati-epidemiologici/tree/main/epatite-di-origine-sconosciuta-nei-bambini/csv10"/>
-    <dcat:distribution rdf:resource="https://github.com/fbranda/dati-epidemiologici/tree/main/epatite-di-origine-sconosciuta-nei-bambini/csv11"/>
-    <dcat:distribution rdf:resource="https://github.com/fbranda/dati-epidemiologici/tree/main/epatite-di-origine-sconosciuta-nei-bambini/csv12"/>
-    <dcat:distribution rdf:resource="https://github.com/fbranda/dati-epidemiologici/tree/main/epatite-di-origine-sconosciuta-nei-bambini/csv13"/>
-    <dcat:distribution rdf:resource="https://github.com/fbranda/dati-epidemiologici/tree/main/epatite-di-origine-sconosciuta-nei-bambini/csv14"/>
-    <dcat:distribution rdf:resource="https://github.com/fbranda/dati-epidemiologici/tree/main/epatite-di-origine-sconosciuta-nei-bambini/csv15"/>
   </dcatapit:Dataset>
   <dcatapit:Dataset rdf:about="https://github.com/fbranda/dati-epidemiologici/tree/main/influenza-stagionale">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
@@ -83,7 +78,7 @@
     <dct:license/>
     <dct:title>Influenza stagionale</dct:title>
     <dct:landingpage>https://github.com/fbranda/dati-epidemiologici/tree/main/influenza-stagionale</dct:landingpage>
-    <dct:description>Questo dataset mette a disposizione i dati epidemiologici (cioè, l'inizio, la durata e intensità dell'epidemia stagionale), e virologici (cioè, il monitoraggio della circolazione dei diversi tipi, nonché sottotipi, di virus influenzali) accolti ed elaborati dall’Istituto Superiore di Sanità (ISS) in un rapporto settimanale. Maggiori informazioni sono disponibili al link: https://www.epicentro.iss.it/influenza/influnet</dct:description>
+    <dct:description>Sono riportati i dati relativi all'influenza stagionale in Italia, estratti dai report settimanali elaborati dall'Istituto Superiore di Sanità (ISS) e resi disponibili sul sito https://www.epicentro.iss.it/influenza/influnet. I dati descrivono l'andamento epidemiologico (cioè, l'inizio, la durata e intensità dell'epidemia stagionale) e virologico (cioè, il monitoraggio della circolazione dei diversi tipi, nonché sottotipi, di virus influenzali) dell'influenza.</dct:description>
     <dct:identifier>unical:influenza-stagionale</dct:identifier>
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/WEEKLY"/>
     <dcat:contactPoint rdf:resource="https://dimes.unical.it/"/>
@@ -99,7 +94,7 @@
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
         <dct:identifier>unical</dct:identifier>
-        <foaf:name>Università della Calabria</foaf:name>
+        <foaf:name>Dipartimento di Ingegneria Informatica, Modellistica, Elettronica e Sistemistica</foaf:name>
       </dcatapit:Agent>
     </dct:publisher>
     <dct:subject rdf:resource="http://eurovoc.europa.eu/100215"/>
@@ -111,13 +106,99 @@
     <dcat:keyword>influenza</dcat:keyword>
     <dcat:keyword>salute pubblica</dcat:keyword>
     <dcat:keyword>sorveglianza epidemiologica</dcat:keyword>
-    <dcat:distribution rdf:resource="https://github.com/fbranda/dati-epidemiologici/tree/main/influenza-stagionale/csv16"/>
-    <dcat:distribution rdf:resource="https://github.com/fbranda/dati-epidemiologici/tree/main/influenza-stagionale/csv17"/>
-    <dcat:distribution rdf:resource="https://github.com/fbranda/dati-epidemiologici/tree/main/influenza-stagionale/csv18"/>
-    <dcat:distribution rdf:resource="https://github.com/fbranda/dati-epidemiologici/tree/main/influenza-stagionale/csv19"/>
+    <dcat:distribution rdf:resource="https://github.com/fbranda/dati-epidemiologici/tree/main/influenza-stagionale/csv9"/>
+    <dcat:distribution rdf:resource="https://github.com/fbranda/dati-epidemiologici/tree/main/influenza-stagionale/csv10"/>
+    <dcat:distribution rdf:resource="https://github.com/fbranda/dati-epidemiologici/tree/main/influenza-stagionale/csv11"/>
+  </dcatapit:Dataset>
+  <dcatapit:Dataset rdf:about="https://github.com/fbranda/dati-epidemiologici/tree/main/west-nile">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/HEAL"/>
+    <dct:license/>
+    <dct:title>West Nile</dct:title>
+    <dct:landingpage>https://github.com/fbranda/dati-epidemiologici/tree/main/west-nile</dct:landingpage>
+    <dct:description>Il dataset descrive l'andamento epidemiologico del virus West Nile (Wnv) durante la stagione di trasmissione in Italia, prevista tra giugno e novembre. Vengono rese disponibili le seguenti informazioni, estratte dai report settimanali elaborati dall'Istituto Superiore di Sanità (ISS) e resi disponibili sul sito https://www.epicentro.iss.it/westnile/bollettino: (i) sorveglianza veterinaria (animale ed entomologica); (ii) sorveglianza umana.</dct:description>
+    <dct:identifier>unical:west-nile</dct:identifier>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/WEEKLY"/>
+    <dcat:contactPoint rdf:resource="https://dimes.unical.it/"/>
+    <dct:rightsHolder>
+      <dcatapit:Agent rdf:about="unical">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>unical</dct:identifier>
+        <foaf:name>Università della Calabria</foaf:name>
+      </dcatapit:Agent>
+    </dct:rightsHolder>
+    <dct:publisher>
+      <dcatapit:Agent rdf:about="unical">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>unical</dct:identifier>
+        <foaf:name>Dipartimento di Ingegneria Informatica, Modellistica, Elettronica e Sistemistica</foaf:name>
+      </dcatapit:Agent>
+    </dct:publisher>
+    <dct:subject rdf:resource="http://eurovoc.europa.eu/100215"/>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-11-02</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-08-19</dct:issued>
+    <dcat:contactPoint rdf:resource="https://dimes.unical.it/"/>
+    <dcat:keyword>west-nile</dcat:keyword>
+    <dcat:keyword>salute pubblica</dcat:keyword>
+    <dcat:keyword>sorveglianza epidemiologica</dcat:keyword>
+    <dcat:distribution rdf:resource="https://github.com/fbranda/dati-epidemiologici/tree/main/west-nile/csv12"/>
+    <dcat:distribution rdf:resource="https://github.com/fbranda/dati-epidemiologici/tree/main/west-nile/csv13"/>
+    <dcat:distribution rdf:resource="https://github.com/fbranda/dati-epidemiologici/tree/main/west-nile/csv14"/>
+    <dcat:distribution rdf:resource="https://github.com/fbranda/dati-epidemiologici/tree/main/west-nile/csv15"/>
+    <dcat:distribution rdf:resource="https://github.com/fbranda/dati-epidemiologici/tree/main/west-nile/csv16"/>
+    <dcat:distribution rdf:resource="https://github.com/fbranda/dati-epidemiologici/tree/main/west-nile/csv17"/>
+    <dcat:distribution rdf:resource="https://github.com/fbranda/dati-epidemiologici/tree/main/west-nile/csv18"/>
+  </dcatapit:Dataset>
+  <dcatapit:Dataset rdf:about="https://github.com/fbranda/dati-epidemiologici/tree/main/vaiolo-delle-scimmie">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/HEAL"/>
+    <dct:license/>
+    <dct:title>Vaiolo delle scimmie</dct:title>
+    <dct:landingpage>https://github.com/fbranda/dati-epidemiologici/tree/main/vaiolo-delle-scimmie</dct:landingpage>
+    <dct:description>Riepilogo settimanale europeo e italiano del monitoraggio sanitario che descrive il quadro della situazione relativo alla stato di evoluzione dell'infezione vaiolo delle scimmie (Mpox). I dati europei sono estratti dai report dell'ECDC e resi disponibili sul sito https://cdn.ecdc.europa.eu/novhep-surveillance/, mentre i dati italiani sono estratti dai report del Ministero della Salute e resi disponibili sul sito https://www.salute.gov.it/portale/malattieInfettive/dettaglioSchedeMalattieInfettive.jsp?lingua=italiano&amp;id=254&amp;area=Malattie%20infettive&amp;menu=indiceAZ&amp;tab=1</dct:description>
+    <dct:identifier>unical:vaiolo-delle-scimmie</dct:identifier>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/WEEKLY"/>
+    <dcat:contactPoint rdf:resource="https://dimes.unical.it/"/>
+    <dct:rightsHolder>
+      <dcatapit:Agent rdf:about="unical">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>unical</dct:identifier>
+        <foaf:name>Università della Calabria</foaf:name>
+      </dcatapit:Agent>
+    </dct:rightsHolder>
+    <dct:publisher>
+      <dcatapit:Agent rdf:about="unical">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>unical</dct:identifier>
+        <foaf:name>Dipartimento di Ingegneria Informatica, Modellistica, Elettronica e Sistemistica</foaf:name>
+      </dcatapit:Agent>
+    </dct:publisher>
+    <dct:subject rdf:resource="http://eurovoc.europa.eu/100215"/>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-01-13</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-08-04</dct:issued>
+    <dcat:contactPoint rdf:resource="https://dimes.unical.it/"/>
+    <dcat:keyword>vaiolo delle scimmie</dcat:keyword>
+    <dcat:keyword>salute pubblica</dcat:keyword>
+    <dcat:keyword>sorveglianza epidemiologica</dcat:keyword>
+    <dcat:distribution rdf:resource="https://github.com/fbranda/dati-epidemiologici/tree/main/vaiolo-delle-scimmie/csv19"/>
+    <dcat:distribution rdf:resource="https://github.com/fbranda/dati-epidemiologici/tree/main/vaiolo-delle-scimmie/csv20"/>
+    <dcat:distribution rdf:resource="https://github.com/fbranda/dati-epidemiologici/tree/main/vaiolo-delle-scimmie/csv21"/>
+    <dcat:distribution rdf:resource="https://github.com/fbranda/dati-epidemiologici/tree/main/vaiolo-delle-scimmie/csv22"/>
+    <dcat:distribution rdf:resource="https://github.com/fbranda/dati-epidemiologici/tree/main/vaiolo-delle-scimmie/csv23"/>
+    <dcat:distribution rdf:resource="https://github.com/fbranda/dati-epidemiologici/tree/main/vaiolo-delle-scimmie/csv24"/>
+    <dcat:distribution rdf:resource="https://github.com/fbranda/dati-epidemiologici/tree/main/vaiolo-delle-scimmie/csv25"/>
+    <dcat:distribution rdf:resource="https://github.com/fbranda/dati-epidemiologici/tree/main/vaiolo-delle-scimmie/csv26"/>
+    <dcat:distribution rdf:resource="https://github.com/fbranda/dati-epidemiologici/tree/main/vaiolo-delle-scimmie/csv27"/>
+    <dcat:distribution rdf:resource="https://github.com/fbranda/dati-epidemiologici/tree/main/vaiolo-delle-scimmie/csv28"/>
   </dcatapit:Dataset>
   <dcatapit:Distribution rdf:about="https://github.com/fbranda/dati-epidemiologici/tree/main/epatite-di-origine-sconosciuta-nei-bambini/csv2">
-    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/fbranda/dati-epidemiologici/main/epatite-di-origine-sconosciuta-nei-bambini/ECDC-WHO-Regional-Office-for-Europe/age-cases-latest.csv"/>
+    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/fbranda/dati-epidemiologici/main/epatite-di-origine-sconosciuta-nei-bambini/ECDC-WHO/age-cases.csv"/>
     <dct:license>
       <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40">
         <rdf:type rdf:resource="dct:LicenseDocument"/>
@@ -127,11 +208,11 @@
     </dct:license>
     <dct:format rdf:resource="CSV"/>
     <dct:description>File in formato CSV per l'interoperabilità</dct:description>
-    <dct:title>age cases latest</dct:title>
+    <dct:title>age cases</dct:title>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </dcatapit:Distribution>
   <dcatapit:Distribution rdf:about="https://github.com/fbranda/dati-epidemiologici/tree/main/epatite-di-origine-sconosciuta-nei-bambini/csv3">
-    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/fbranda/dati-epidemiologici/main/epatite-di-origine-sconosciuta-nei-bambini/ECDC-WHO-Regional-Office-for-Europe/age-country-cases-latest.csv"/>
+    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/fbranda/dati-epidemiologici/main/epatite-di-origine-sconosciuta-nei-bambini/ECDC-WHO/age-country-cases.csv"/>
     <dct:license>
       <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40">
         <rdf:type rdf:resource="dct:LicenseDocument"/>
@@ -141,11 +222,11 @@
     </dct:license>
     <dct:format rdf:resource="CSV"/>
     <dct:description>File in formato CSV per l'interoperabilità</dct:description>
-    <dct:title>age country cases latest</dct:title>
+    <dct:title>age country cases</dct:title>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </dcatapit:Distribution>
   <dcatapit:Distribution rdf:about="https://github.com/fbranda/dati-epidemiologici/tree/main/epatite-di-origine-sconosciuta-nei-bambini/csv4">
-    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/fbranda/dati-epidemiologici/main/epatite-di-origine-sconosciuta-nei-bambini/ECDC-WHO-Regional-Office-for-Europe/cases-latest.csv"/>
+    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/fbranda/dati-epidemiologici/main/epatite-di-origine-sconosciuta-nei-bambini/ECDC-WHO/case-count.csv"/>
     <dct:license>
       <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40">
         <rdf:type rdf:resource="dct:LicenseDocument"/>
@@ -155,11 +236,11 @@
     </dct:license>
     <dct:format rdf:resource="CSV"/>
     <dct:description>File in formato CSV per l'interoperabilità</dct:description>
-    <dct:title>cases latest</dct:title>
+    <dct:title>overall cases</dct:title>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </dcatapit:Distribution>
   <dcatapit:Distribution rdf:about="https://github.com/fbranda/dati-epidemiologici/tree/main/epatite-di-origine-sconosciuta-nei-bambini/csv5">
-    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/fbranda/dati-epidemiologici/main/epatite-di-origine-sconosciuta-nei-bambini/ECDC-WHO-Regional-Office-for-Europe/country-cases-latest.csv"/>
+    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/fbranda/dati-epidemiologici/main/epatite-di-origine-sconosciuta-nei-bambini/ECDC-WHO/country-cases.csv"/>
     <dct:license>
       <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40">
         <rdf:type rdf:resource="dct:LicenseDocument"/>
@@ -169,11 +250,11 @@
     </dct:license>
     <dct:format rdf:resource="CSV"/>
     <dct:description>File in formato CSV per l'interoperabilità</dct:description>
-    <dct:title>country cases latest</dct:title>
+    <dct:title>country cases</dct:title>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </dcatapit:Distribution>
   <dcatapit:Distribution rdf:about="https://github.com/fbranda/dati-epidemiologici/tree/main/epatite-di-origine-sconosciuta-nei-bambini/csv6">
-    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/fbranda/dati-epidemiologici/main/epatite-di-origine-sconosciuta-nei-bambini/ECDC-WHO-Regional-Office-for-Europe/country-typology-case-latest.csv"/>
+    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/fbranda/dati-epidemiologici/main/epatite-di-origine-sconosciuta-nei-bambini/ECDC-WHO/country-typology-cases.csv"/>
     <dct:license>
       <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40">
         <rdf:type rdf:resource="dct:LicenseDocument"/>
@@ -183,11 +264,11 @@
     </dct:license>
     <dct:format rdf:resource="CSV"/>
     <dct:description>File in formato CSV per l'interoperabilità</dct:description>
-    <dct:title>country typology cases latest</dct:title>
+    <dct:title>country typology cases</dct:title>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </dcatapit:Distribution>
   <dcatapit:Distribution rdf:about="https://github.com/fbranda/dati-epidemiologici/tree/main/epatite-di-origine-sconosciuta-nei-bambini/csv7">
-    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/fbranda/dati-epidemiologici/main/epatite-di-origine-sconosciuta-nei-bambini/ECDC-WHO-Regional-Office-for-Europe/microbiological-analysis-latest.csv"/>
+    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/fbranda/dati-epidemiologici/main/epatite-di-origine-sconosciuta-nei-bambini/ECDC-WHO/microbiological-analysis.csv"/>
     <dct:license>
       <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40">
         <rdf:type rdf:resource="dct:LicenseDocument"/>
@@ -197,11 +278,11 @@
     </dct:license>
     <dct:format rdf:resource="CSV"/>
     <dct:description>File in formato CSV per l'interoperabilità</dct:description>
-    <dct:title>microbiological analysis latest</dct:title>
+    <dct:title>microbiological analysis cases</dct:title>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </dcatapit:Distribution>
   <dcatapit:Distribution rdf:about="https://github.com/fbranda/dati-epidemiologici/tree/main/epatite-di-origine-sconosciuta-nei-bambini/csv8">
-    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/fbranda/dati-epidemiologici/main/epatite-di-origine-sconosciuta-nei-bambini/ECDC-WHO-Regional-Office-for-Europe/sex-cases-latest.csv"/>
+    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/fbranda/dati-epidemiologici/main/epatite-di-origine-sconosciuta-nei-bambini/ECDC-WHO/sex-cases.csv"/>
     <dct:license>
       <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40">
         <rdf:type rdf:resource="dct:LicenseDocument"/>
@@ -211,108 +292,10 @@
     </dct:license>
     <dct:format rdf:resource="CSV"/>
     <dct:description>File in formato CSV per l'interoperabilità</dct:description>
-    <dct:title>sex cases latest</dct:title>
+    <dct:title>sex cases</dct:title>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </dcatapit:Distribution>
-  <dcatapit:Distribution rdf:about="https://github.com/fbranda/dati-epidemiologici/tree/main/epatite-di-origine-sconosciuta-nei-bambini/csv9">
-    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/fbranda/dati-epidemiologici/main/epatite-di-origine-sconosciuta-nei-bambini/ECDC-WHO-Regional-Office-for-Europe/timeseries-age-cases.csv"/>
-    <dct:license>
-      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40">
-        <rdf:type rdf:resource="dct:LicenseDocument"/>
-        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
-        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
-      </dcatapit:LicenseDocument>
-    </dct:license>
-    <dct:format rdf:resource="CSV"/>
-    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
-    <dct:title>timeseries age cases</dct:title>
-    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
-  </dcatapit:Distribution>
-  <dcatapit:Distribution rdf:about="https://github.com/fbranda/dati-epidemiologici/tree/main/epatite-di-origine-sconosciuta-nei-bambini/csv10">
-    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/fbranda/dati-epidemiologici/main/epatite-di-origine-sconosciuta-nei-bambini/ECDC-WHO-Regional-Office-for-Europe/timeseries-age-country-cases.csv"/>
-    <dct:license>
-      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40">
-        <rdf:type rdf:resource="dct:LicenseDocument"/>
-        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
-        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
-      </dcatapit:LicenseDocument>
-    </dct:license>
-    <dct:format rdf:resource="CSV"/>
-    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
-    <dct:title>timeseries age country cases</dct:title>
-    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
-  </dcatapit:Distribution>
-  <dcatapit:Distribution rdf:about="https://github.com/fbranda/dati-epidemiologici/tree/main/epatite-di-origine-sconosciuta-nei-bambini/csv11">
-    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/fbranda/dati-epidemiologici/main/epatite-di-origine-sconosciuta-nei-bambini/ECDC-WHO-Regional-Office-for-Europe/timeseries-cases.csv"/>
-    <dct:license>
-      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40">
-        <rdf:type rdf:resource="dct:LicenseDocument"/>
-        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
-        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
-      </dcatapit:LicenseDocument>
-    </dct:license>
-    <dct:format rdf:resource="CSV"/>
-    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
-    <dct:title>timeseries cases</dct:title>
-    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
-  </dcatapit:Distribution>
-  <dcatapit:Distribution rdf:about="https://github.com/fbranda/dati-epidemiologici/tree/main/epatite-di-origine-sconosciuta-nei-bambini/csv12">
-    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/fbranda/dati-epidemiologici/main/epatite-di-origine-sconosciuta-nei-bambini/ECDC-WHO-Regional-Office-for-Europe/timeseries-country-cases.csv"/>
-    <dct:license>
-      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40">
-        <rdf:type rdf:resource="dct:LicenseDocument"/>
-        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
-        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
-      </dcatapit:LicenseDocument>
-    </dct:license>
-    <dct:format rdf:resource="CSV"/>
-    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
-    <dct:title>timeseries country cases</dct:title>
-    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
-  </dcatapit:Distribution>
-  <dcatapit:Distribution rdf:about="https://github.com/fbranda/dati-epidemiologici/tree/main/epatite-di-origine-sconosciuta-nei-bambini/csv13">
-    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/fbranda/dati-epidemiologici/main/epatite-di-origine-sconosciuta-nei-bambini/ECDC-WHO-Regional-Office-for-Europe/timeseries-country-typology-cases.csv"/>
-    <dct:license>
-      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40">
-        <rdf:type rdf:resource="dct:LicenseDocument"/>
-        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
-        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
-      </dcatapit:LicenseDocument>
-    </dct:license>
-    <dct:format rdf:resource="CSV"/>
-    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
-    <dct:title>timeseries country typology cases</dct:title>
-    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
-  </dcatapit:Distribution>
-  <dcatapit:Distribution rdf:about="https://github.com/fbranda/dati-epidemiologici/tree/main/epatite-di-origine-sconosciuta-nei-bambini/csv14">
-    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/fbranda/dati-epidemiologici/main/epatite-di-origine-sconosciuta-nei-bambini/ECDC-WHO-Regional-Office-for-Europe/timeseries-microbiological-analysis.csv"/>
-    <dct:license>
-      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40">
-        <rdf:type rdf:resource="dct:LicenseDocument"/>
-        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
-        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
-      </dcatapit:LicenseDocument>
-    </dct:license>
-    <dct:format rdf:resource="CSV"/>
-    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
-    <dct:title>timeseries microbiological analysis</dct:title>
-    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
-  </dcatapit:Distribution>
-  <dcatapit:Distribution rdf:about="https://github.com/fbranda/dati-epidemiologici/tree/main/epatite-di-origine-sconosciuta-nei-bambini/csv15">
-    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/fbranda/dati-epidemiologici/main/epatite-di-origine-sconosciuta-nei-bambini/ECDC-WHO-Regional-Office-for-Europe/timeseries-sex-cases.csv"/>
-    <dct:license>
-      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40">
-        <rdf:type rdf:resource="dct:LicenseDocument"/>
-        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
-        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
-      </dcatapit:LicenseDocument>
-    </dct:license>
-    <dct:format rdf:resource="CSV"/>
-    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
-    <dct:title>timeseries sex cases</dct:title>
-    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
-  </dcatapit:Distribution>
-  <dcatapit:Distribution rdf:about="https://github.com/fbranda/dati-epidemiologici/tree/main/influenza-stagionale/csv16">
+  <dcatapit:Distribution rdf:about="https://github.com/fbranda/dati-epidemiologici/tree/main/influenza-stagionale/csv9">
     <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/fbranda/dati-epidemiologici/main/influenza-stagionale/data-aggregated/epidemiological-data/timeseries-national-cases.csv"/>
     <dct:license>
       <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40">
@@ -323,10 +306,10 @@
     </dct:license>
     <dct:format rdf:resource="CSV"/>
     <dct:description>File in formato CSV per l'interoperabilità</dct:description>
-    <dct:title>timeseries national cases</dct:title>
+    <dct:title>national cases</dct:title>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </dcatapit:Distribution>
-  <dcatapit:Distribution rdf:about="https://github.com/fbranda/dati-epidemiologici/tree/main/influenza-stagionale/csv17">
+  <dcatapit:Distribution rdf:about="https://github.com/fbranda/dati-epidemiologici/tree/main/influenza-stagionale/csv10">
     <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/fbranda/dati-epidemiologici/main/influenza-stagionale/data-aggregated/epidemiological-data/timeseries-regional-cases.csv"/>
     <dct:license>
       <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40">
@@ -337,11 +320,11 @@
     </dct:license>
     <dct:format rdf:resource="CSV"/>
     <dct:description>File in formato CSV per l'interoperabilità</dct:description>
-    <dct:title>timeseries regional cases</dct:title>
+    <dct:title>regional cases</dct:title>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </dcatapit:Distribution>
-  <dcatapit:Distribution rdf:about="https://github.com/fbranda/dati-epidemiologici/tree/main/influenza-stagionale/csv18">
-    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/fbranda/dati-epidemiologici/main/influenza-stagionale/flu-season/2022-2023/epidemiological-data/national-cases-2022-2023.csv"/>
+  <dcatapit:Distribution rdf:about="https://github.com/fbranda/dati-epidemiologici/tree/main/influenza-stagionale/csv11">
+    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/fbranda/dati-epidemiologici/main/influenza-stagionale/data-aggregated/epidemiological-data/timeseries-virological-cases.csv"/>
     <dct:license>
       <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40">
         <rdf:type rdf:resource="dct:LicenseDocument"/>
@@ -351,11 +334,11 @@
     </dct:license>
     <dct:format rdf:resource="CSV"/>
     <dct:description>File in formato CSV per l'interoperabilità</dct:description>
-    <dct:title>national cases latest</dct:title>
+    <dct:title>virological cases</dct:title>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </dcatapit:Distribution>
-  <dcatapit:Distribution rdf:about="https://github.com/fbranda/dati-epidemiologici/tree/main/influenza-stagionale/csv19">
-    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/fbranda/dati-epidemiologici/main/influenza-stagionale/flu-season/2022-2023/epidemiological-data/regional-cases-2022-2023.csv"/>
+  <dcatapit:Distribution rdf:about="https://github.com/fbranda/dati-epidemiologici/tree/main/west-nile/csv12">
+    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/fbranda/dati-epidemiologici/main/west-nile/dati-aggregati/dati-andamento-nazionale/wn-ita-andamento-nazionale.csv"/>
     <dct:license>
       <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40">
         <rdf:type rdf:resource="dct:LicenseDocument"/>
@@ -365,9 +348,245 @@
     </dct:license>
     <dct:format rdf:resource="CSV"/>
     <dct:description>File in formato CSV per l'interoperabilità</dct:description>
-    <dct:title>regional cases latest</dct:title>
+    <dct:title>national cases</dct:title>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </dcatapit:Distribution>
+  <dcatapit:Distribution rdf:about="https://github.com/fbranda/dati-epidemiologici/tree/main/west-nile/csv13">
+    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/fbranda/dati-epidemiologici/main/west-nile/dati-aggregati/dati-sorveglianza-entomologica/wn-ita-sorveglianza-entomologica.csv"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="CSV"/>
+    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+    <dct:title>entomological surveillance data</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </dcatapit:Distribution>
+  <dcatapit:Distribution rdf:about="https://github.com/fbranda/dati-epidemiologici/tree/main/west-nile/csv14">
+    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/fbranda/dati-epidemiologici/main/west-nile/dati-aggregati/dati-sorveglianza-equidi/wn-ita-sorveglianza-equidi.csv"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="CSV"/>
+    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+    <dct:title>equine surveillance data</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </dcatapit:Distribution>
+  <dcatapit:Distribution rdf:about="https://github.com/fbranda/dati-epidemiologici/tree/main/west-nile/csv15">
+    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/fbranda/dati-epidemiologici/main/west-nile/dati-aggregati/dati-sorveglianza-uccelli/dati-sorveglianza-uccelli-bersaglio/wn-ita-sorveglianza-uccelli-bersaglio.csv"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="CSV"/>
+    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+    <dct:title>target bird surveillance data</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </dcatapit:Distribution>
+  <dcatapit:Distribution rdf:about="https://github.com/fbranda/dati-epidemiologici/tree/main/west-nile/csv16">
+    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/fbranda/dati-epidemiologici/main/west-nile/dati-aggregati/dati-sorveglianza-uccelli/dati-sorveglianza-uccelli-selvatici/wn-ita-sorveglianza-uccelli-selvatici.csv"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="CSV"/>
+    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+    <dct:title>wild bird surveillance data</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </dcatapit:Distribution>
+  <dcatapit:Distribution rdf:about="https://github.com/fbranda/dati-epidemiologici/tree/main/west-nile/csv17">
+    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/fbranda/dati-epidemiologici/main/west-nile/dati-aggregati/dati-sorveglianza-umana/wn-ita-regioni-sorveglianza-umana.csv"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="CSV"/>
+    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+    <dct:title>regional human surveillance data</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </dcatapit:Distribution>
+  <dcatapit:Distribution rdf:about="https://github.com/fbranda/dati-epidemiologici/tree/main/west-nile/csv18">
+    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/fbranda/dati-epidemiologici/main/west-nile/dati-aggregati/dati-sorveglianza-umana/wn-ita-province-sorveglianza-umana.csv"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="CSV"/>
+    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+    <dct:title>provincial human surveillance data</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </dcatapit:Distribution>
+  <dcatapit:Distribution rdf:about="https://github.com/fbranda/dati-epidemiologici/tree/main/vaiolo-delle-scimmie/csv19">
+    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/fbranda/dati-epidemiologici/main/vaiolo-delle-scimmie/ECDC-WHO/age-sex-cases.csv"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="CSV"/>
+    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+    <dct:title>age and gender cases</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </dcatapit:Distribution>
+  <dcatapit:Distribution rdf:about="https://github.com/fbranda/dati-epidemiologici/tree/main/vaiolo-delle-scimmie/csv20">
+    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/fbranda/dati-epidemiologici/main/vaiolo-delle-scimmie/ECDC-WHO/data-summary-outcome.csv"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="CSV"/>
+    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+    <dct:title>outcome and HIV status cases</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </dcatapit:Distribution>
+  <dcatapit:Distribution rdf:about="https://github.com/fbranda/dati-epidemiologici/tree/main/vaiolo-delle-scimmie/csv21">
+    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/fbranda/dati-epidemiologici/main/vaiolo-delle-scimmie/ECDC-WHO/data-summary.csv"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="CSV"/>
+    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+    <dct:title>country cases</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </dcatapit:Distribution>
+  <dcatapit:Distribution rdf:about="https://github.com/fbranda/dati-epidemiologici/tree/main/vaiolo-delle-scimmie/csv22">
+    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/fbranda/dati-epidemiologici/main/vaiolo-delle-scimmie/ECDC-WHO/epicurve-by-notification-date.csv"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="CSV"/>
+    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+    <dct:title>overall cases by date of notification</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </dcatapit:Distribution>
+  <dcatapit:Distribution rdf:about="https://github.com/fbranda/dati-epidemiologici/tree/main/vaiolo-delle-scimmie/csv23">
+    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/fbranda/dati-epidemiologici/main/vaiolo-delle-scimmie/ECDC-WHO/epicurve-by-typedate.csv"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="CSV"/>
+    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+    <dct:title>overall cases by date of symptom onset</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </dcatapit:Distribution>
+  <dcatapit:Distribution rdf:about="https://github.com/fbranda/dati-epidemiologici/tree/main/vaiolo-delle-scimmie/csv24">
+    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/fbranda/dati-epidemiologici/main/vaiolo-delle-scimmie/ECDC-WHO/microbiological-analysis.csv"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="CSV"/>
+    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+    <dct:title>microbiological analysis cases</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </dcatapit:Distribution>
+  <dcatapit:Distribution rdf:about="https://github.com/fbranda/dati-epidemiologici/tree/main/vaiolo-delle-scimmie/csv25">
+    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/fbranda/dati-epidemiologici/main/vaiolo-delle-scimmie/ECDC-WHO/sexual-orientation.csv"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="CSV"/>
+    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+    <dct:title>sexual orientation cases</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </dcatapit:Distribution>
+  <dcatapit:Distribution rdf:about="https://github.com/fbranda/dati-epidemiologici/tree/main/vaiolo-delle-scimmie/csv26">
+    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/fbranda/dati-epidemiologici/main/vaiolo-delle-scimmie/ECDC-WHO/symptoms.csv"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="CSV"/>
+    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+    <dct:title>symptoms cases</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </dcatapit:Distribution>
+  <dcatapit:Distribution rdf:about="https://github.com/fbranda/dati-epidemiologici/tree/main/vaiolo-delle-scimmie/csv27">
+    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/fbranda/dati-epidemiologici/main/vaiolo-delle-scimmie/Italy/mpox-italy.csv"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="CSV"/>
+    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+    <dct:title>italian national cases</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </dcatapit:Distribution>
+  <dcatapit:Distribution rdf:about="https://github.com/fbranda/dati-epidemiologici/tree/main/vaiolo-delle-scimmie/csv28">
+    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/fbranda/dati-epidemiologici/main/vaiolo-delle-scimmie/Italy/mpox-region.csv"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="CSV"/>
+    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+    <dct:title>italian regional cases</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </dcatapit:Distribution>
+  <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/HEAL">
+    <skos:prefLabel>Salute</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://eurovoc.europa.eu/100215">
+    <skos:prefLabel xml:lang="it">2841 salute</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/HEAL">
+    <skos:prefLabel>Salute</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://eurovoc.europa.eu/100215">
+    <skos:prefLabel xml:lang="it">2841 salute</skos:prefLabel>
+  </skos:Concept>
   <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/HEAL">
     <skos:prefLabel>Salute</skos:prefLabel>
   </skos:Concept>
