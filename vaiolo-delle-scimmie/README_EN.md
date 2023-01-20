@@ -9,18 +9,18 @@ This repository contains data extracted from the [ECDC-WHO/Europe surveillance](
 
 ## Getting the data
 
-**Direct download (CSV)**: https://raw.githubusercontent.com/fbranda/dati-epidemiologici/main/vaiolo-delle-scimmie/ECDC-WHO/epicurves/epicurve-by-country.csv
+**Direct download (CSV)**: https://raw.githubusercontent.com/fbranda/dati-epidemiologici/main/vaiolo-delle-scimmie/Italy/mpox-italy.csv
 
 **Python** (requires `pandas`):
 ```python
 import pandas as pd
-df = pd.read_csv("https://raw.githubusercontent.com/fbranda/dati-epidemiologici/main/vaiolo-delle-scimmie/ECDC-WHO/epicurves/epicurve-by-country.csv")
+df = pd.read_csv("https://raw.githubusercontent.com/fbranda/dati-epidemiologici/main/vaiolo-delle-scimmie/Italy/mpox-italy.csv")
 ```
 
 **R** (requires `httr`):
 ```r
 library(httr)
-df <- read.csv(text=content(GET("https://raw.githubusercontent.com/fbranda/dati-epidemiologici/main/vaiolo-delle-scimmie/ECDC-WHO/epicurves/epicurve-by-country.csv")))
+df <- read.csv(text=content(GET("https://raw.githubusercontent.com/fbranda/dati-epidemiologici/main/vaiolo-delle-scimmie/Italy/mpox-italy.csv")))
 ```
 ## Contributions
 1) [Branda F, Pierini M, Mazzoli S. Monkeypox: EpiMPX surveillance system and open-data with a special focus on European
