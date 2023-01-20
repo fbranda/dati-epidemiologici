@@ -48,7 +48,7 @@
       </dcatapit:Agent>
     </dct:rightsHolder>
     <dct:publisher>
-      <dcatapit:Agent rdf:about="unical">
+      <dcatapit:Agent rdf:nodeID="unical">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
         <dct:identifier>unical</dct:identifier>
@@ -90,7 +90,7 @@
       </dcatapit:Agent>
     </dct:rightsHolder>
     <dct:publisher>
-      <dcatapit:Agent rdf:about="unical">
+      <dcatapit:Agent rdf:nodeID="unical">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
         <dct:identifier>unical</dct:identifier>
@@ -128,7 +128,7 @@
       </dcatapit:Agent>
     </dct:rightsHolder>
     <dct:publisher>
-      <dcatapit:Agent rdf:about="unical">
+      <dcatapit:Agent rdf:nodeID="unical">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
         <dct:identifier>unical</dct:identifier>
@@ -170,7 +170,7 @@
       </dcatapit:Agent>
     </dct:rightsHolder>
     <dct:publisher>
-      <dcatapit:Agent rdf:about="unical">
+      <dcatapit:Agent rdf:nodeID="unical">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
         <dct:identifier>unical</dct:identifier>
