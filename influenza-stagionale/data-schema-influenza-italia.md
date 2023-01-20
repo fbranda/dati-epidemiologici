@@ -12,6 +12,8 @@
 |-----------------------------|-----------------------------------|-------------------------------|
 | **flu_season**      | String       | Anno stagione influenzale  |
 | **year_week**     |  String       | Settimana bollettino   |
+| **start_date**     |  String       | Data iniziale della settimana del bollettino   |
+| **end_date**     |  String       | Data finale della settimana del bollettino   |
 | **number_healthcare_workers**   | Integer | Numero di casi segnalati dagli operatori sanitari  |
 | **number_cases**  | Integer | Numero settimanale di nuovi casi confermati  |
 | **population** | Integer | Popolazione di riferimento |
@@ -36,6 +38,12 @@
 |-----------------------------|-----------------------------------|-------------------------------|
 | **flu_season**      | String       | Anno stagione influenzale  |
 | **year_week**     |  String       | Settimana bollettino   |
+| **start_date**     |  String       | Data iniziale della settimana del bollettino   |
+| **end_date**     |  String       | Data finale della settimana del bollettino   |
+| **region_name**     |  String       | Nome regione   |
+| **region_code**     |  String       | Codice regione (ISTAT) |
+| **lat**     |  WGS84       | Latitudine   |
+| **long**     |  WGS84       | Longitudine   |
 | **number_healthcare_workers**   | Integer | Numero di casi segnalati dagli operatori sanitari  |
 | **number_cases**  | Integer | Numero settimanale di nuovi casi confermati  |
 | **population** | Integer | Popolazione di riferimento |
@@ -61,6 +69,8 @@
 |-----------------------------|-----------------------------------|-------------------------------|
 | **flu_season**      | String       | Anno stagione influenzale  |
 | **year_week**     |  String       | Settimana bollettino |
+| **start_date**     |  String       | Data iniziale della settimana del bollettino   |
+| **end_date**     |  String       | Data finale della settimana del bollettino   |
 | **influenza_viruses**  |  String       |  Nome virus  |
 | **number_samples** | Integer | Numero di campioni clinici ricevuti dai laboratori  |
 | **number_sequenced** | Integer | Numero di campioni sequenziati |
