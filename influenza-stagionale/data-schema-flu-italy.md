@@ -1,6 +1,6 @@
 <a href="https://w3.iss.it/site/rmi/influnet/pagine/rapportoinflunet.aspx"><img src="https://github.com/fbranda/dati-epidemiologici/blob/main/assets/img/logo-influnet.jpg" alt="Influenza" data-canonical-src="https://github.com/fbranda/dati-epidemiologici/blob/main/assets/img/logo-influnet.jpg" width="400"/></a>
 
-# Evoulution data about seasonal influenza
+# Evolution data about seasonal influenza
 
 ### Epidemiological data schema
 
@@ -12,6 +12,8 @@
 |-----------------------------|-----------------------------------|-------------------------------|
 | **flu_season**      | String       | Flu season reference period  |
 | **year_week**     |  String       | Bulletin reference week   |
+| **start_date**     |  String       | Beginning date of bulletin reporting week   |
+| **end_date**     |  String       | End date of the bulletin reference week   |
 | **number_healthcare_workers**   | Integer | Number of cases reported by the healthcare workers  |
 | **number_cases**  | Integer | Weekly number of new confirmed cases  |
 | **population** | Integer | Reference population |
@@ -36,7 +38,12 @@
 |-----------------------------|-----------------------------------|-------------------------------|
 | **flu_season**      | String       | Flu season reference period  |
 | **year_week**     |  String       | Bulletin reference week   |
-| **region**     |  String       | Region name   |
+| **start_date**     |  String       | Beginning date of bulletin reporting week   |
+| **end_date**     |  String       | End date of the bulletin reference week   |
+| **region_name**     |  String       | Region name   |
+| **region_code**     |  String       | Region Code (ISTAT) |
+| **lat**     |  WGS84       | Latitude   |
+| **long**     |  WGS84       | Longitude   |
 | **number_healthcare_workers**   | Integer | Number of cases reported by the healthcare workers  |
 | **number_cases**  | Integer | Weekly number of new confirmed cases  |
 | **population** | Integer | Reference population |
@@ -62,6 +69,8 @@
 |-----------------------------|-----------------------------------|-------------------------------|
 | **flu_season**      | String       | Flu season reference period  |
 | **year_week**     |  String       | Bulletin reference week   |
+| **start_date**     |  String       | Beginning date of bulletin reporting week   |
+| **end_date**     |  String       | End date of the bulletin reference week   |
 | **influenza_viruses**  |  String       |  Influenza virus name  |
 | **number_samples** | Integer | Number of clinical samples received from the laboratories  |
 | **number_sequenced** | Integer | Number of sequenced samples |
