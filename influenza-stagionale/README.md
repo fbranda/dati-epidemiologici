@@ -18,6 +18,8 @@ influenza-stagionale/
 │   │       ├── national-cases-2003-2004.csv
 │   │   ├── influnet-report/
 │   │       ├── influnet-epi-2003-2004.pdf
+│   │   ├── vaccination-data/
+│   │       ├── vaccinations-2003-2004.csv
 │   ├── ...
 │   │
 │   │   
@@ -35,12 +37,16 @@ influenza-stagionale/
 │   │           ├── ...
 │   │   ├── virological-data/
 │   │       ├── virological-cases-2012-2013.csv
+│   │   ├── vaccination-data/
+│   │       ├── vaccinations-2012-2013.csv
 ├── data-aggregated/
 │   ├── epidemiological-data/
 │   │   ├── timeseries-national-cases.csv
 │   │   ├── timeseries-regional-cases.csv
 │   ├── virological-data/
 │   │   ├── timeseries-virological-cases.csv
+│   ├── vaccination-data/
+│   │   ├── timeseries-vaccinations.csv
 
 
 ```
